@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 26 15:24:00 PDT 2001
+digiRootData/src TkrDigi.cxx SubSystemHeader.cxx CalLogId.cxx CalDigi.cxx AcdId.cxx AcdDigi.cxx TkrHeader.cxx StripID.cxx Event.cxx CalHeader.cxx AcdHeader.cxx TkrLayer.cxx TileID.cxx LogID.cxx CalHit.cxx ACDTile.cxx
+
+Modified Files:
+	TkrHeader.cxx StripID.cxx Event.cxx CalHeader.cxx 
+	AcdHeader.cxx 
+Added Files:
+	TkrDigi.cxx SubSystemHeader.cxx CalLogId.cxx CalDigi.cxx 
+	AcdId.cxx AcdDigi.cxx 
+Removed Files:
+	TkrLayer.cxx TileID.cxx LogID.cxx CalHit.cxx ACDTile.cxx 
+Log Message:
+updates for the bfem
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 26 15:22:41 PDT 2001
 digiRootData/digiRootData TkrDigi.h SubSystemHeader.h CalLogId.h CalDigi.h AcdId.h AcdDigi.h TkrHeader.h StripID.h EventLinkDef.h EventCint.h EventCint.cxx Event.h dorootcint.bat CalHeader.h AcdHeader.h TkrLayer.h TileID.h LogID.h CalHit.h ACDTile.h
 
