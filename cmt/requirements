@@ -1,5 +1,5 @@
 package digiRootData
-version v4r2p0
+version v4r2p1
 
 use mcRootData v2r*
 use GlastPolicy v5*
@@ -26,12 +26,14 @@ apply_pattern vsnet_rootcint
 macro root_headers "\
  ../digiRootData/AcdDigi.h\
  ../digiRootData/AcdId.h\
+ ../digiRootData/CalDiagnostic.h\
  ../digiRootData/CalDigi.h\
  ../digiRootData/CalXtalId.h\
  ../digiRootData/CalXtalReadout.h\
  ../digiRootData/DigiEvent.h\
  ../digiRootData/GlastAxis.h\
  ../digiRootData/L1T.h\
+ ../digiRootData/TkrDiagnostic.h\
  ../digiRootData/TkrDigi.h\
  ../digiRootData/TowerId.h\
  ../digiRootData/EventLinkDef.h"
@@ -46,6 +48,7 @@ library  digiRootData \
       CalDigi.cxx CalXtalReadout.cxx CalXtalId.cxx \
       AcdDigi.cxx AcdId.cxx \
       L1T.cxx \
+      CalDiagnostic.cxx TkrDiagnostic.cxx \
       ../digiRootData/*.cxx \
       ${digiRootData_headers}
 
