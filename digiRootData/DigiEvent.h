@@ -68,7 +68,7 @@ public:
     inline UInt_t getEbfLowerPpcTimeBase() const { return m_ebfLowerPpcTimeBase; };
     /// Return the approximate number of seconds elapsed since power on
     /// by dividing the value in the PPC registers by 16 MHz
-    inline Double_t getEbfTimeBase() const { 
+    inline Double_t getEbfPpcTimeSeconds() const { 
         const Double_t sixteenMHz = 16000000.;
         // To handle th 64-bit value - we separate the computation
         // The upper 32 bits would have to be shifted by 31 (or multiplied)
