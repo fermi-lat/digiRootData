@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue Apr  9 12:22:11 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	EventLinkDef.h 
+Added Files:
+	CalLogReadout.h CalLogId.h CalDigi.h 
+Log Message:
+new Cal digi classes
+    *
+------------------------------------------------------------
 User: heather  Tue Apr  9 12:21:20 PDT 2002
 digiRootData/src
 
