@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Tue Mar  9 18:19:07 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h 
+Added Files:
+      Tag: v5r0p4
+	CalDiagnostic.h EventSummaryData.h TkrDiagnostic.h 
+Log Message:
+Merge EM digiRootDat into mainline
+    *
+------------------------------------------------------------
 User: heather  Tue Mar  9 18:06:38 PST 2004
 digiRootData/doc
 
