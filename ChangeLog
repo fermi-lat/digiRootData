@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Tue Nov 25 23:00:28 PST 2003
+digiRootData/src
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	DigiEvent.cxx 
+Added Files:
+      Tag: v4r2p0-em-branch
+	EventSummaryData.cxx 
+Log Message:
+handle event summary word
+    *
+------------------------------------------------------------
 User: heather  Mon Nov 24 18:03:55 PST 2003
 digiRootData/src/test
 
