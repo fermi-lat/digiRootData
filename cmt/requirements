@@ -1,9 +1,9 @@
 package digiRootData
-version v4r2p0em2
+version v4r2p0em3
 
 use mcRootData v2r*
 use GlastPolicy v5*
-
+use ebfExt  v2r*  IExternal
 
 apply_pattern package_include
 
@@ -36,6 +36,7 @@ macro root_headers "\
  ../digiRootData/TkrDiagnostic.h\
  ../digiRootData/TkrDigi.h\
  ../digiRootData/TowerId.h\
+ ../digiRootData/EventSummaryData.h\
  ../digiRootData/EventLinkDef.h"
 
 macro root_linkdef "../digiRootData/EventLinkDef.h"
@@ -49,6 +50,7 @@ library  digiRootData \
       AcdDigi.cxx AcdId.cxx \
       L1T.cxx \
       CalDiagnostic.cxx TkrDiagnostic.cxx \
+      EventSummaryData.cxx \
       ../digiRootData/*.cxx \
       ${digiRootData_headers}
 
