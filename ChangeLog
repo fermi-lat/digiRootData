@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: cohen  Tue Mar 29 20:55:46 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	L1T.h 
+Log Message:
+ROOT class L1T has both digi and trgreq based TriInRow combinations
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r19p0, operation: add
 Package: digiRootData
