@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 19 13:24:08 PDT 2001
+digiRootData/digiRootData TkrDigi.h CalDigi.h AcdDigi.h TkrLayer.h TileID.h Tagger.h StripID.h LogID.h L1T.h EventLinkDef.h EventCint.h EventCint.cxx Event.h ESAPID.h dorootcint.bat CalHit.h ACDTile.h
+
+Modified Files:
+	TkrLayer.h TileID.h Tagger.h StripID.h LogID.h L1T.h 
+	EventLinkDef.h EventCint.h EventCint.cxx Event.h ESAPID.h 
+	dorootcint.bat CalHit.h ACDTile.h 
+Added Files:
+	TkrDigi.h CalDigi.h AcdDigi.h 
+Log Message:
+update for the digi Root classes for the 2001 BFEM
+    *
+------------------------------------------------------------
 TAG activity
 User: heather  Wed May 16 09:40:04 2001
 Tag name: v1r1
