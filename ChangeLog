@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Mon Jun 21 10:37:27 PDT 2004
-digiRootData/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-remove CR
-    *
-------------------------------------------------------------
-User: burnett  Sun Jun 20 11:07:04 PDT 2004
-digiRootData/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-tagging after converting to comprehsnsive RootPolicy
-    *
-------------------------------------------------------------
-User: burnett  Sun Jun 20 11:07:04 PDT 2004
-digiRootData/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-tagging after converting to comprehsnsive RootPolicy
-    *
-------------------------------------------------------------
 User: heather  Fri Jun 18 23:13:55 PDT 2004
 digiRootData/cmt
 
