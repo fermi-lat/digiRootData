@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Feb  6 06:15:26 PST 2003
+digiRootData/src/test
+
+Modified Files:
+	leaktest.cxx 
+Log Message:
+update test - seems to fix up some odd behavior in 3.04.02
+    *
+------------------------------------------------------------
 User: heather  Wed Feb  5 13:36:28 PST 2003
 digiRootData/src
 
