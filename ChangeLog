@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Aug 27 18:37:44 PDT 2001
+digiRootData/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+clean up, convert to use env var for shr
+    *
+------------------------------------------------------------
 User: heather  Wed Aug 22 13:44:14 PDT 2001
 digiRootData/doc release.notes digiRootData.htm
 
