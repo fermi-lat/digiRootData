@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Mar 13 23:58:28 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle trgParityError
+    *
+------------------------------------------------------------
 User: heather  Sun Mar 13 23:58:13 PST 2005
 digiRootData/cmt
 
