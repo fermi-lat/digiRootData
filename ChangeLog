@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 28 11:36:35 PDT 2001
+/digiRootData/digiRootData LogId.h CalLogId.h
+
+Added Files:
+	LogId.h 
+Removed Files:
+	CalLogId.h 
+Log Message:
+renaming CalLogId to LogId
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 28 11:33:57 PDT 2001
 digiRootData/src CalLog.cxx
 
