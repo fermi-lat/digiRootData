@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Aug 31 12:31:32 PDT 2001
+digiRootData/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+put ld_library_path back in for linux
+    *
+------------------------------------------------------------
 User: burnett  Tue Aug 28 08:03:27 PDT 2001
 digiRootData/cmt requirements
 
