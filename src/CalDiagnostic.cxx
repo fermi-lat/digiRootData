@@ -1,41 +1,51 @@
 //                                                                       
-// The CalDiagnostic class contains the EM diagnostic CAL trigger primitives 
+// The CalDiagnosticData class contains the EM diagnostic CAL trigger primitives 
 //                                                                       
 
 #include "digiRootData/CalDiagnostic.h"
 #include <iostream>
+// From Online EBF library
+#include "CALdiagnostic.h"
 
-ClassImp(CalDiagnostic)
+ClassImp(CalDiagnosticData)
 
-CalDiagnostic::CalDiagnostic() : m_datum(0), m_gccc(0), m_layer(0)
+CalDiagnosticData::CalDiagnosticData() : m_datum(0)
 {
 }
 
-CalDiagnostic::CalDiagnostic(UInt_t datum, Short_t gccc, Short_t layer)
-: m_datum(datum), m_gccc(gccc), m_layer(layer)
+CalDiagnosticData::CalDiagnosticData(UInt_t datum)
+: m_datum(datum)
 {
 }
 
-CalDiagnostic::~CalDiagnostic() {
+CalDiagnosticData::~CalDiagnosticData() {
 
 }
 
-void CalDiagnostic::initialize(UInt_t datum, Short_t gccc, Short_t layer)
+void CalDiagnosticData::initialize(UInt_t datum)
 {
     m_datum=datum;
-    m_gccc=gccc;
-    m_layer=layer;
 }
 
-void CalDiagnostic::Clear(Option_t *option) {
+void CalDiagnosticData::Clear(Option_t *option) {
     m_datum = 0;
-    m_gccc = 0;
-    m_layer = 0;
 }
 
-void CalDiagnostic::Print(Option_t *option) const {
+void CalDiagnosticData::Print(Option_t *option) const {
     using namespace std;
     TObject::Print(option);
     cout.precision(2);
-    cout << "GCCC: " << m_gccc << " Layer " << m_layer << "  Data Word: " << m_datum << endl;
+    cout << " Data Word: " << m_datum << endl;
+}
+
+UInt_t CalDiagnosticData::high(UInt_t sign) const {
+    return CALdiagnostic::high(m_datum, sign);
+}
+
+UInt_t CalDiagnosticData::low(UInt_t sign) const {
+    return CALdiagnostic::low(m_datum, sign);
+}
+
+UInt_t CalDiagnosticData::logAccepts(UInt_t sign) const {
+    return CALdiagnostic::logAccepts(m_datum, sign);
 }
