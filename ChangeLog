@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jan  8 22:02:26 PST 2004
+digiRootData/src
+
+Modified Files:
+	CalDigi.cxx DigiEvent.cxx TkrDigi.cxx 
+Log Message:
+fix signed/unsigned warnings
+    *
+------------------------------------------------------------
 User: heather  Fri Dec 19 00:01:00 PST 2003
 digiRootData/src
 
