@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: berthon  Wed May 14 09:00:07 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+changed clear method to clear in heaps
+
+    *
+------------------------------------------------------------
 User: heather  Mon Mar 24 13:25:13 PST 2003
 digiRootData/src/test
 
