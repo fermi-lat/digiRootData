@@ -3,6 +3,7 @@ Package digiRootData
 Coordinator:H.Kelly
 @verbatim
 
+v4r2p0em6 18-Dec-2003 HMK handle EBF time
 v4r2p0em5 18-Dec-2003 HMK access diagnostic EM data using EBF Online interface
 v4r2p0em4 26-Nov-2003 HMK provide summary access method in EventSummaryData
 v4r2p0em3 26-Nov-2003 HMK handle event summary word
