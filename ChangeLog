@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun  5 20:38:48 PDT 2002
+digiRootData/cmt
+
+Modified Files:
+	dorootcint.bat 
+Log Message:
+add missing exit to avoid error message
+    *
+------------------------------------------------------------
 User: heather  Wed Jun  5 14:34:08 PDT 2002
 digiRootData/src
 
