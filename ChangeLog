@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: berthon  Wed May 14 09:15:33 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+remove printouts
+
+
+    *
+------------------------------------------------------------
 User: berthon  Wed May 14 09:00:07 PDT 2003
 digiRootData/src
 
