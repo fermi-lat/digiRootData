@@ -15,8 +15,8 @@ ClassImp(DigiEvent)
 TClonesArray *DigiEvent::s_acdDigiStaticCol = 0;
 TObjArray *DigiEvent::s_staticTkrDigiCol = 0;
 TClonesArray *DigiEvent::s_calDigiStaticCol = 0;
-//TClonesArray *DigiEvent::s_calDiagnosticStaticCol = 0;
-//TClonesArray *DigiEvent::s_tkrDiagnosticStaticCol = 0;
+TClonesArray *DigiEvent::s_calDiagnosticStaticCol = 0;
+TClonesArray *DigiEvent::s_tkrDiagnosticStaticCol = 0;
 
 DigiEvent::DigiEvent() {
     //if (!s_calDigiStaticCol) s_calDigiStaticCol = new TClonesArray("CalDigi",1536);
@@ -34,15 +34,15 @@ DigiEvent::DigiEvent() {
     m_acdDigiCol = s_acdDigiStaticCol;
     m_numAcdDigis = -1;
 
-/*
-    if (!s_calDiagnosticStaticCol) s_calDiagnosticStaticCol = new TClonesArray("CalDiagnostic",8);
+
+    if (!s_calDiagnosticStaticCol) s_calDiagnosticStaticCol = new TClonesArray("CalDiagnosticData",8);
     m_calDiagnosticCloneCol = s_calDiagnosticStaticCol;
     m_numCalDiagnostics = -1;
 
-    if (!s_tkrDiagnosticStaticCol) s_tkrDiagnosticStaticCol = new TClonesArray("TkrDiagnostic",4);
+    if (!s_tkrDiagnosticStaticCol) s_tkrDiagnosticStaticCol = new TClonesArray("TkrDiagnosticData",4);
     m_tkrDiagnosticCloneCol = s_tkrDiagnosticStaticCol;
     m_numTkrDiagnostics = -1;
-*/
+
     Clear();
 }
 
@@ -69,7 +69,7 @@ DigiEvent::~DigiEvent() {
         m_calDigiCol = 0;
     }
 
-/*
+
     if (m_calDiagnosticCloneCol == s_calDiagnosticStaticCol) s_calDiagnosticStaticCol = 0;
     m_calDiagnosticCloneCol->Delete();
     delete m_calDiagnosticCloneCol;
@@ -79,7 +79,7 @@ DigiEvent::~DigiEvent() {
     m_tkrDiagnosticCloneCol->Delete();
     delete m_tkrDiagnosticCloneCol;
     m_tkrDiagnosticCloneCol = 0;
- */
+ 
 }
 
 void DigiEvent::initialize(UInt_t eventId, UInt_t runId, Double_t time, 
@@ -115,10 +115,10 @@ void DigiEvent::Clear(Option_t *option) {
     m_numAcdDigis = -1;
     m_numCalDigis = -1;
 
-  //  m_calDiagnosticCloneCol->Clear("C");
- //   m_tkrDiagnosticCloneCol->Clear("C");
- //   m_numCalDiagnostics = -1;
- //   m_numTkrDiagnostics = -1;
+    m_calDiagnosticCloneCol->Clear("C");
+    m_tkrDiagnosticCloneCol->Clear("C");
+    m_numCalDiagnostics = -1;
+    m_numTkrDiagnostics = -1;
 
    //m_tkrDigiCol->Delete();  //<======THIS LINE COMMENTED
    //we delete the objects in keep every nd TkrDigi objects
@@ -249,34 +249,34 @@ const TClonesArray* DigiEvent::getCalDigiCol() {
     return m_calDigiCloneCol; 
 }
 
-/*
-CalDiagnostic* DigiEvent::addCalDiagnostic() {
+
+CalDiagnosticData* DigiEvent::addCalDiagnostic() {
     // Add a new CalDiagnostic entry, note that
     // TClonesArrays can only be filled via
     // a new with placement call
     ++m_numCalDiagnostics;
     TClonesArray &calDiags = *m_calDiagnosticCloneCol;
-    new(calDiags[m_numCalDiagnostics]) CalDiagnostic();
-    return ((CalDiagnostic*)(calDiags[m_numCalDiagnostics]));
+    new(calDiags[m_numCalDiagnostics]) CalDiagnosticData();
+    return ((CalDiagnosticData*)(calDiags[m_numCalDiagnostics]));
 }
 
-const CalDiagnostic* DigiEvent::getCalDiagnostic(UInt_t i) const {
+const CalDiagnosticData* DigiEvent::getCalDiagnostic(UInt_t i) const {
     if (i > m_numCalDiagnostics) return 0;
-    return (CalDiagnostic*)m_calDiagnosticCloneCol->At(i);
+    return (CalDiagnosticData*)m_calDiagnosticCloneCol->At(i);
 }
 
-TkrDiagnostic* DigiEvent::addTkrDiagnostic() {
+TkrDiagnosticData* DigiEvent::addTkrDiagnostic() {
     // Add a new  TkrDiagnostic entry, note that
     // TClonesArrays can only be filled via
     // a new with placement call
     ++m_numTkrDiagnostics;
     TClonesArray &tkrDiags = *m_tkrDiagnosticCloneCol;
-    new(tkrDiags[m_numTkrDiagnostics]) TkrDiagnostic();
-    return ((TkrDiagnostic*)(tkrDiags[m_numTkrDiagnostics]));
+    new(tkrDiags[m_numTkrDiagnostics]) TkrDiagnosticData();
+    return ((TkrDiagnosticData*)(tkrDiags[m_numTkrDiagnostics]));
 }
 
-const TkrDiagnostic* DigiEvent::getTkrDiagnostic(UInt_t i) const {
+const TkrDiagnosticData* DigiEvent::getTkrDiagnostic(UInt_t i) const {
     if (i > m_numTkrDiagnostics) return 0;
-    return (TkrDiagnostic*)m_tkrDiagnosticCloneCol->At(i);
+    return (TkrDiagnosticData*)m_tkrDiagnosticCloneCol->At(i);
 }
-*/
+
