@@ -1,32 +1,4 @@
 ------------------------------------------------------------
-User: heather  Wed Oct 13 14:26:26 PDT 2004
-digiRootData/doc/images
-
-Modified Files:
-	digiTree.gif 
-Removed Files:
-	digiTree.jpg 
-Log Message:
-update doc
-    *
-------------------------------------------------------------
-User: heather  Wed Oct 13 14:25:53 PDT 2004
-digiRootData/doc/styles
-
-Added Files:
-	site.css 
-Log Message:
-add style sheet
-    *
-------------------------------------------------------------
-User: heather  Wed Oct 13 14:24:03 PDT 2004
-digiRootData/doc/styles
-
-Log Message:
-Directory /nfs/slac/g/glast/ground/cvs/digiRootData/doc/styles added to the repository
-
-    *
-------------------------------------------------------------
 User: heather  Tue Oct 12 23:01:47 PDT 2004
 digiRootData/digiRootData
 
