@@ -3,6 +3,7 @@ Package digiRootData
 Coordinator:H.Kelly
 @verbatim
 
+v4r2p0em2 24-Nov-2003 HMK shut off diagnostic data for now
 v4r2p0em1 18-Nov-2003 HMK fixes for diagnostic data
 v4r2p0em0 17-Nov-2003 HMK inital EM branch with Diagnostic data
 v4r2p0    13-Oct-2003 HMK Add initialize routines to AcdId
