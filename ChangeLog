@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 27 08:39:29 PDT 2001
+/digiRootData/digiRootData StripId.h StripID.h
+
+Added Files:
+	StripId.h 
+Removed Files:
+	StripID.h 
+Log Message:
+Renaming StripID to StripId
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 27 08:38:34 PDT 2001
 /digiRootData/src StripId.cxx StripID.cxx
 
