@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Feb 23 12:29:31 PST 2005
+digiRootData/cmt
+
+Modified Files:
+      Tag: GlastRelease-v6r1p2
+	requirements 
+Log Message:
+provide access to number of trigger bits
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r16p1, operation: add
 Package: digiRootData
