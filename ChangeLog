@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun  5 14:32:13 PDT 2002
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx leaktest.cxx 
+Log Message:
+add in tests for AcdDigi
+    *
+------------------------------------------------------------
 User: heather  Wed Jun  5 14:31:05 PDT 2002
 digiRootData/digiRootData
 
