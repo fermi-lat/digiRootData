@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Oct  2 06:47:33 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	AcdId.h 
+Log Message:
+add operator ==
+    *
+------------------------------------------------------------
 User: heather  Wed Oct  2 06:46:53 PDT 2002
 digiRootData/cmt
 
