@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jan 14 10:42:05 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	TkrDigi.h 
+Log Message:
+remove std:: from TkrData.h data members - causes reading problems
+    *
+------------------------------------------------------------
 User: heather  Wed Jan 14 10:41:49 PST 2004
 digiRootData/doc
 
