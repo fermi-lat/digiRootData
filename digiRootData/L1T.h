@@ -41,8 +41,8 @@ public:
     bool getCalLow() const { return m_trigger & enums::b_LO_CAL; };
     /// kTRUE indicates that CAL HIGH occurred
     bool getCalHigh() const { return m_trigger & enums::b_HI_CAL; };
-    /// kTRUE when Ritz Throttle is satisfied
-    bool getThrottle() const { return m_trigger & enums::b_THROTTLE; };
+    // kTRUE when Ritz Throttle is satisfied
+    //bool getThrottle() const { return m_trigger & enums::b_THROTTLE; };
 	/*@}*/
 
     UInt_t getTriRowBits(const Int_t tower) const;
