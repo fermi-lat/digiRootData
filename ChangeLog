@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  7 10:31:42 PST 2002
+digiRootData/cmt
+
+Modified Files:
+	requirements dorootcint.csh dorootcint.sh 
+Log Message:
+use cmt doc generator on unix for rootcint
+    *
+------------------------------------------------------------
 User: heather  Thu Mar  7 09:47:42 PST 2002
 digiRootData/cmt
 
