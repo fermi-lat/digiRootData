@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Tue Aug 27 12:29:46 PDT 2002
+digiRootData/cmt
+
+Modified Files:
+	.cvsignore 
+Removed Files:
+	cleanup.csh cleanup.sh 
+Log Message:
+cleanup cleanup
+    *
+------------------------------------------------------------
 User: heather  Mon Aug 26 14:56:35 PDT 2002
 digiRootData/cmt
 
