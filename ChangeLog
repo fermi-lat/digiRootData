@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Sun Jul 20 08:16:30 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+small fix to be compatible with gcc3.2
+    *
+------------------------------------------------------------
 User: heather  Fri Jun 27 12:40:01 PDT 2003
 digiRootData/cmt
 
