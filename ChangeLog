@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 16 23:12:05 PDT 2004
+digiRootData/src
+
+Removed Files:
+	AcdTile.cxx StripId.cxx TkrLayer.cxx 
+Log Message:
+remove old classes
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 16 23:00:28 PDT 2004
 digiRootData/doc
 
