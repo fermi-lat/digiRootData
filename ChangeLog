@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon May 13 12:57:47 PDT 2002
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix up listing of headers for unix generation of cint files
+    *
+------------------------------------------------------------
 User: heather  Mon May 13 12:33:27 PDT 2002
 digiRootData/doc
 
