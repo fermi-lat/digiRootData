@@ -3,6 +3,14 @@ TAG activity
 User: heather  Mon Jul 23 09:33:01 2001
 Tag name: v1r2
 Tag operation: add
+Repository: /nfs/slac/g/glast/ground/cvs/digiRootData/fragments
+File(s) and revision(s): event_dorootcint_header
+    *
+------------------------------------------------------------
+TAG activity
+User: heather  Mon Jul 23 09:33:01 2001
+Tag name: v1r2
+Tag operation: add
 Repository: /nfs/slac/g/glast/ground/cvs/digiRootData/doc
 File(s) and revision(s): digiRootData.htm
     *
