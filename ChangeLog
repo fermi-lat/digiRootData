@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed May 16 09:39:19 PDT 2001
+digiRootData/digiRootData .cvsignore
+
+Modified Files:
+	.cvsignore 
+Log Message:
+ok..so the cvsignore did have to be updated for the cint classes
+but the Cint files were checked in :)
+    *
+------------------------------------------------------------
 User: igable  Mon Apr 30 13:56:20 PDT 2001
 digiRootData/digiRootData EventCint.h EventCint.cxx
 
