@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 20 15:08:07 PDT 2001
+digiRootData/digiRootData TkrLayer.h EventCint.cxx
+
+Modified Files:
+	TkrLayer.h EventCint.cxx 
+Log Message:
+remove TClonesArray from TkrLayer - it won't work as a member
+of a TObjArray
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 20 12:14:23 PDT 2001
 digiRootData/src TkrLayer.cxx TileID.cxx StripID.cxx ESAPID.cxx CalHit.cxx CalHeader.cxx ACDTile.cxx
 
