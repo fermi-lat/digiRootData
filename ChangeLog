@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: igable  Mon Apr 30 13:56:20 PDT 2001
+digiRootData/digiRootData EventCint.h EventCint.cxx
+
+Added Files:
+	EventCint.h EventCint.cxx 
+Log Message:
+Added on a temp basis until we can get the dorootcint.bat run 
+automatically.
+
+    *
+------------------------------------------------------------
 User: tlindner  Thu Apr 26 16:26:12 PDT 2001
 digiRootData/cmt requirements
 
