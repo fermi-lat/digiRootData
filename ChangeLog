@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 14:38:39 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	Gem.h 
+Log Message:
+add enum and methods to unpack GEM condition summary
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 14 14:33:30 PDT 2004
 digiRootData/doc
 
