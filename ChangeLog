@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 12 04:39:21 PDT 2001
+digiRootData/src Event.cxx
+
+Modified Files:
+	Event.cxx 
+Log Message:
+Fix up use of enum
+    *
+------------------------------------------------------------
 User: heather  Wed Jul 11 16:14:20 PDT 2001
 digiRootData/cmt requirements
 
