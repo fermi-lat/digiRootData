@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 22 15:18:51 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h CalDigi.h TkrDigi.h LinkDef.h 
+Removed Files:
+	AcdId.h CalXtalId.h TowerId.h 
+Log Message:
+moved all idents classes to commonRootData
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 22 15:17:07 PDT 2004
 digiRootData/doc
 
