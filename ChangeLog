@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: burnett  Wed Jun 16 21:52:32 PDT 2004
+digiRootData/src
+
+Removed Files:
+      Tag: v7r0
+	AcdTile.cxx StripId.cxx TkrLayer.cxx 
+Log Message:
+use RootPolicy pattern
+    *
+------------------------------------------------------------
+User: burnett  Wed Jun 16 21:52:32 PDT 2004
 digiRootData/digiRootData
 
 Modified Files:
