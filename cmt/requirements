@@ -1,5 +1,5 @@
 package digiRootData
-version v1r1p1
+version v1r1p2
 
 use GlastPolicy
 use ROOT
@@ -16,6 +16,10 @@ apply_pattern ld_library_path
 
 private
 
+# For Windows, use a setup script to run rootcint automatically
+# Still using document generator for UNIX
+setup_script dorootcint
+
 # Create the Root Cint classes
 macro root_headers "ACDTile.h CalHit.h ESAPID.h Event.h L1T.h LogID.h StripID.h Tagger.h TileID.h TkrLayer.h EventLinkDef.h"
 
@@ -27,7 +31,6 @@ macro digiRootData_customBuild ""\
 make_fragment event_dorootcint_header
 make_fragment event_dorootcint -header=event_dorootcint_header
 document event_dorootcint EventRootCint CINTFILE=../digiRootData/EventCint.cxx
-
 
 
 # For some reason, I was getting errors when loading the digiRootData shareable
