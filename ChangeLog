@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Mar 12 22:06:49 PST 2004
+digiRootData/src
+
+Added Files:
+	TkrDiagnosticData.cxx 
+Removed Files:
+	TkrDiagnostic.cxx 
+Log Message:
+renamed TkrDiagnostic.cxx to TkrDiagnosticData.cxx
+    *
+------------------------------------------------------------
 User: heather  Fri Mar 12 22:06:03 PST 2004
 digiRootData/src
 
