@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Jan 20 08:34:21 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	TkrDigi.h 
+Log Message:
+remove std:: from vector declarations
+    *
+------------------------------------------------------------
 User: heather  Mon Jan 19 13:38:24 PST 2004
 digiRootData/digiRootData
 
