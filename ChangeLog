@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  6 04:52:02 PST 2003
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx leaktest.cxx 
+Log Message:
+clean up test routines a little
+    *
+------------------------------------------------------------
 User: heather  Thu Mar  6 04:50:54 PST 2003
 digiRootData/src
 
