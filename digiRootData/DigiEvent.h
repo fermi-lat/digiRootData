@@ -10,8 +10,8 @@
 #include "CalDigi.h"
 #include "TkrDigi.h"
 
-//#include "TkrDiagnostic.h"
-//#include "CalDiagnostic.h"
+#include "TkrDiagnostic.h"
+#include "CalDiagnostic.h"
 #include "EventSummaryData.h"
 
 /** @class DigiEvent
@@ -28,6 +28,7 @@
  * - Collection of TkrDigi objects
  * - EM CAL Diagnostic trigger primitives
  * - EM TKR Diagnostic trigger primitives
+ * - EM Event Summary
  *
  * @li Jun 2001 Heather Kelly - revised to use TClonesArray
  * @li Jan 2000 Daniel Flath - ROOT HTML comments added
@@ -92,15 +93,14 @@ public:
     inline const EventSummaryData& getEventSummaryData() const { return m_summary; };
     inline EventSummaryData& getEventSummaryData() { return m_summary; };
 
-/*
     const TClonesArray *getCalDiagnosticCol() { return m_calDiagnosticCloneCol;};
-    CalDiagnostic* addCalDiagnostic();
-    const CalDiagnostic* getCalDiagnostic(UInt_t i) const;
+    CalDiagnosticData* addCalDiagnostic();
+    const CalDiagnosticData* getCalDiagnostic(UInt_t i) const;
 
     const TClonesArray *getTkrDiagnosticCol() { return m_tkrDiagnosticCloneCol;};
-    TkrDiagnostic* addTkrDiagnostic();
-    const TkrDiagnostic* getTkrDiagnostic(UInt_t i) const;
-*/
+    TkrDiagnosticData* addTkrDiagnostic();
+    const TkrDiagnosticData* getTkrDiagnostic(UInt_t i) const;
+
 
 private:
     /// Time in seconds
@@ -136,15 +136,15 @@ private:
 
     EventSummaryData m_summary;
 
- //   TClonesArray *m_tkrDiagnosticCloneCol; //->
- //   Int_t m_numTkrDiagnostics;
-//    static TClonesArray *s_tkrDiagnosticStaticCol; //! Collection of TKR diagnostic for EM
+    TClonesArray *m_tkrDiagnosticCloneCol; //->
+    Int_t m_numTkrDiagnostics;
+    static TClonesArray *s_tkrDiagnosticStaticCol; //! Collection of TKR diagnostic for EM
 
- //   TClonesArray *m_calDiagnosticCloneCol; //->
- //   Int_t m_numCalDiagnostics;
-//    static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
+    TClonesArray *m_calDiagnosticCloneCol; //->
+    Int_t m_numCalDiagnostics;
+    static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
 
-    ClassDef(DigiEvent,7) // Storage for Raw(Digi) event and subsystem data
+    ClassDef(DigiEvent,8) // Storage for Raw(Digi) event and subsystem data
 }; 
 
 #endif

@@ -1,37 +1,36 @@
-#ifndef ROOT_TkrDiagnostic_H
-#define ROOT_TkrDiagnostic_H
+#ifndef ROOT_TkrDiagnosticData_H
+#define ROOT_TkrDiagnosticData_H
 
 #include "TObject.h"
 
-/** @class TkrDiagnostic
- * @brief Store the EM TkrDiagnostic trigger primitives
+/** @class TkrDiagnosticData
+ * @brief Store the EM TkrDiagnosticData trigger primitives
  *
  * $Header$
 */
 
-class TkrDiagnostic : public TObject {
+class TkrDiagnosticData : public TObject {
 public:
             
-    TkrDiagnostic() : m_datum(0), m_gtcc(0) {};
-    TkrDiagnostic(UInt_t datum, UShort_t gtcc) : m_datum(datum), m_gtcc(gtcc) {}
-    virtual ~TkrDiagnostic() {}
+    TkrDiagnosticData() : m_datum(0) {};
+    TkrDiagnosticData(UInt_t datum) : m_datum(datum) {}
+    virtual ~TkrDiagnosticData() {}
 
-    UInt_t getTriggerRequest() const { return m_datum; };
-    Bool_t getTriggerRequest(UShort_t gtrc)const { return ((m_datum & (1 << gtrc)) ? true : false); };
-    Short_t getGtcc() const { return m_gtcc; };
+    UInt_t getDataWord() const { return m_datum; };
 
-    void initialize(UInt_t datum, UShort_t gtcc);
+    void initialize(UInt_t datum);
 
     void Clear(Option_t *option ="");
 
     void Print(Option_t *option="") const;
 
+    UInt_t GTRC(Int_t gtrc) const;
+
 private:
     /// packed word containing trigger primitive for these TKR layers
     UInt_t m_datum;    
-    UShort_t m_gtcc;
 
-    ClassDef(TkrDiagnostic,1) // EM TkrDiagnostic information
+    ClassDef(TkrDiagnosticData,1) // EM TkrDiagnosticData information
 };
 
 #endif
