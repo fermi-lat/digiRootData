@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 24 13:46:02 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	CalDiagnosticData.h TkrDiagnosticData.h 
+Log Message:
+store tower and layer/gtcc for CAL/TKR diagnostic
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 24 13:45:45 PST 2004
 digiRootData/doc
 
