@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun 16 21:52:32 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use RootPolicy pattern
+    *
+------------------------------------------------------------
 User: heather  Thu May 27 16:36:16 PDT 2004
 digiRootData/cmt
 
