@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon May 13 12:05:21 PDT 2002
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+add fromMc data member
+    *
+------------------------------------------------------------
 User: heather  Mon May 13 12:04:44 PDT 2002
 digiRootData/digiRootData
 
