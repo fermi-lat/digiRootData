@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Wed Mar  5 16:09:49 PST 2003
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx leaktest.cxx 
+Log Message:
+Cal digi ROOT format modified for faster reading, TObjArray replaced by TClonesArray
+    *
+------------------------------------------------------------
 User: chehtman  Wed Mar  5 16:08:07 PST 2003
 digiRootData/src
 
