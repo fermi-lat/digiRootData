@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 22 15:19:08 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	CalXtalReadout.h 
+Log Message:
+moved all idents classes to commonRootData
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 22 15:18:51 PDT 2004
 digiRootData/digiRootData
 
