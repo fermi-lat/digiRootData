@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Thu Mar 14 07:55:51 PST 2002
+digiRootData/cmt
+
+Modified Files:
+      Tag: testbeam
+	requirements 
+Added Files:
+      Tag: testbeam
+	cd.cmd dorootcint.bat dorootcint.csh dorootcint.sh 
+Log Message:
+automatic rootcint for windows
+    *
+------------------------------------------------------------
 User: heather  Thu Mar 14 07:53:51 PST 2002
 digiRootData/doc
 
