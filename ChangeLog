@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Jun 29 10:55:22 PDT 2001
+digiRootData/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+fix root header for linux
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 28 16:16:59 PDT 2001
 digiRootData/digiRootData TkrHeader.h SubSystemHeader.h EventCint.h EventCint.cxx CalHeader.h AcdHeader.h
 
