@@ -1,12 +1,11 @@
-Package digiRootData
-Coordinator: H. Kelly
-
-31-oct-2001: new tag v2r9p1
-16-oct-2001: new tag v2r9
-16-oct-2001: update EventLinkDef file to include + to use new ROOT streamers
-28-aug-2001: new tag v2r8
-28-aug-2001: update requirements file
-21-aug-2001: new tag v2r7
-21-aug-2001:  add in CNO bit for AcdTile class
-20-june-2001: update classes for the BFEM
-april-2001: tag as v1r1
+/** @file
+ * Package digiRootData
+ * Coordinator: H. Kelly
+ *
+ * v1r1p2    14-Mar-2001  HMK fixed automatic rootcint generation \n
+ * v1r1p1    23-Jul-2001  HMK removed explict use of ROOT version\n
+ * v1r1      26-Apr-2001  HMK testbeam branch - automatic rootcint\n
+             does not yet work
+ *           26-Apr-2001  HMK updates for new version of CMT \n
+ * v0        11-Apr-2001  HMK initial import - copy of TBEvent package
+ */
