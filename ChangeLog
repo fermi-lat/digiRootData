@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Jun  5 14:31:05 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	TowerId.h EventLinkDef.h DigiEvent.h CalXtalReadout.h AcdId.h 
+Added Files:
+	AcdDigi.h 
+Log Message:
+add new AcdDigi and clean up other classes for printing
+    *
+------------------------------------------------------------
 User: heather  Wed Jun  5 14:28:55 PDT 2002
 digiRootData/cmt
 
