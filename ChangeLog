@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 11 16:13:45 PDT 2001
+digiRootData/src AcdId.cxx AcdTile.cxx CalLog.cxx Event.cxx L1T.cxx LogId.cxx
+
+Modified Files:
+	AcdId.cxx AcdTile.cxx CalLog.cxx Event.cxx L1T.cxx LogId.cxx 
+Log Message:
+additions to handle the XGT numbering, access method for 
+CalLogs
+    *
+------------------------------------------------------------
 User: heather  Wed Jul 11 16:09:34 PDT 2001
 digiRootData/digiRootData AcdHeader.h AcdId.h AcdTile.h CalHeader.h CalLog.h Event.h EventCint.cxx EventCint.h L1T.h LogId.h SubSystemHeader.h TkrHeader.h
 
