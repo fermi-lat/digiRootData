@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jan 14 10:41:38 PST 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove std:: from TkrData.h data members - causes reading problems
+    *
+------------------------------------------------------------
 User: heather  Fri Jan  9 08:22:06 PST 2004
 digiRootData/cmt
 
