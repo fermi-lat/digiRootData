@@ -103,6 +103,8 @@ void DigiEvent::Clear(Option_t *option) {
     m_eventId = 0;
     m_runId = 0;
     m_timeStamp = 0.0;
+    m_ebfTimeSec = 0;
+    m_ebfTimeNanoSec = 0;
     m_levelOneTrigger.Clear();
     m_summary.Clear();
     m_calDigiCloneCol->Clear("C");
