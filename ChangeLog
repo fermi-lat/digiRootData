@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 12 18:23:31 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+comment out debugging output
+    *
+------------------------------------------------------------
 User: heather  Fri Jun  6 06:47:03 PDT 2003
 digiRootData/doc
 
