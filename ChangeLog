@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: berthon  Wed Jun  4 10:10:29 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+improve bufferisation in Clear
+
+    *
+------------------------------------------------------------
 User: berthon  Tue Jun  3 02:00:11 PDT 2003
 digiRootData/src
 
