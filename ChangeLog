@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jan  8 22:02:55 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	CalDigi.h 
+Log Message:
+remove signed/unsigned warnings
+    *
+------------------------------------------------------------
 User: heather  Thu Jan  8 22:02:26 PST 2004
 digiRootData/src
 
