@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Nov 19 23:26:29 PST 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add TKRRECON bit to event flag in EventSummaryData
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 10 15:50:12 PST 2004
 digiRootData/src/test
 
