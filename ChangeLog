@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 19 13:38:24 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	TkrDigi.h 
+Log Message:
+fix use of std namespace
+    *
+------------------------------------------------------------
 User: heather  Mon Jan 19 13:38:05 PST 2004
 digiRootData/doc
 
