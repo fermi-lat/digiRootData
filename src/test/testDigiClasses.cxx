@@ -455,7 +455,8 @@ int write(char* fileName, int numEvents) {
     for (ievent = 0; ievent < numEvents; ievent++) {
         
         L1T level1(13);
-        ev->initialize(ievent, runNum, randNum*ievent, level1, fromMc);
+        EventSummaryData summary(0);
+        ev->initialize(ievent, runNum, randNum*ievent, level1, summary, fromMc);
         
         for (ixtal = 0; ixtal < numXtals; ixtal ++) {
             CalDigi *cal = ev->addCalDigi();

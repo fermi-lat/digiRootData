@@ -16,6 +16,7 @@
 #pragma link C++ class CalXtalId+;
 #pragma link C++ class CalDiagnostic+;
 #pragma link C++ class TkrDiagnostic+;
+#pragma link C++ class EventSummaryData+;
 
 
 #endif
