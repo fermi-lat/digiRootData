@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Mar 12 22:03:56 PST 2004
+digiRootData/digiRootData
+
+Added Files:
+	CalDiagnosticData.h 
+Removed Files:
+	CalDiagnostic.h 
+Log Message:
+renamed CalDiagnostic.h CalDiagnosticData.h
+    *
+------------------------------------------------------------
 User: berthon  Fri Mar 12 06:34:34 PST 2004
 digiRootData/digiRootData
 
