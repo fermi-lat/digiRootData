@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 26 22:34:33 PST 2003
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	EventSummaryData.h 
+Log Message:
+provide summary access method
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 26 22:34:08 PST 2003
 digiRootData/doc
 
