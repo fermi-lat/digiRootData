@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar 15 15:28:51 PST 2005
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+store all diag and err lengths
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r17, operation: add
 Package: digiRootData
