@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Feb  2 10:19:07 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h L1T.h 
+Log Message:
+prepare for RootCnvSvc
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r13, operation: add
 Package: digiRootData
