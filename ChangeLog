@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Jul 23 09:32:05 PDT 2001
+digiRootData/cmt requirements
+
+Modified Files:
+      Tag: testbeam
+	requirements 
+Log Message:
+update uses for the testbeam version of this package
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 17 21:35:05 PDT 2001
 digiRootData/src DigiEvent.cxx Event.cxx
 
