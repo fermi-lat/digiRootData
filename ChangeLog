@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 28 11:33:57 PDT 2001
+digiRootData/src CalLog.cxx
+
+Modified Files:
+	CalLog.cxx 
+Log Message:
+go back to LogId..we have a name conflict if we use CalLogId
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 28 11:33:39 PDT 2001
 digiRootData/digiRootData EventLinkDef.h EventCint.h EventCint.cxx dorootcint.bat CalLog.h
 
