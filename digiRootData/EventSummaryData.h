@@ -24,7 +24,7 @@ public:
     void Clear(Option_t *option="");
 
     void Print(Option_t *option="") const;
-
+    UInt_t summary() { return m_summary; };
 
     UInt_t calStrobe();
     UInt_t tag();
