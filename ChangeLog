@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 16 22:58:03 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h 
+Removed Files:
+	LiveTime.h 
+Log Message:
+remove old classes
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 16 22:55:38 PDT 2004
 digiRootData/src
 
