@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 17 21:35:05 PDT 2001
+digiRootData/src DigiEvent.cxx Event.cxx
+
+Added Files:
+	DigiEvent.cxx 
+Removed Files:
+	Event.cxx 
+Log Message:
+renamed Event class to DigiEvent
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 17 21:34:25 PDT 2001
 digiRootData/digiRootData DigiEvent.h dorootcint.bat EventCint.cxx EventCint.h EventLinkDef.h Event.h
 
