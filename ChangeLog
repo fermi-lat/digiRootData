@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jan 27 10:32:28 PST 2004
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+fix for caldigi col reading and make printing better
+    *
+------------------------------------------------------------
 User: heather  Tue Jan 27 10:32:17 PST 2004
 digiRootData/digiRootData
 
