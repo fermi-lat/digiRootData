@@ -10,8 +10,8 @@
 #include "CalDigi.h"
 #include "TkrDigi.h"
 
-#include "TkrDiagnostic.h"
-#include "CalDiagnostic.h"
+//#include "TkrDiagnostic.h"
+//#include "CalDiagnostic.h"
 
 /** @class DigiEvent
  * @brief This is the top-level event class to store the Digi data.
@@ -88,6 +88,7 @@ public:
     /// Access Level 1 Trigger data
     inline const L1T& getL1T() const { return m_levelOneTrigger; };    
 
+/*
     const TClonesArray *getCalDiagnosticCol() { return m_calDiagnosticCloneCol;};
     CalDiagnostic* addCalDiagnostic();
     const CalDiagnostic* getCalDiagnostic(UInt_t i) const;
@@ -95,7 +96,7 @@ public:
     const TClonesArray *getTkrDiagnosticCol() { return m_tkrDiagnosticCloneCol;};
     TkrDiagnostic* addTkrDiagnostic();
     const TkrDiagnostic* getTkrDiagnostic(UInt_t i) const;
-
+*/
 
 private:
     /// Time in seconds
@@ -128,13 +129,13 @@ private:
     static TObjArray *s_staticTkrDigiCol;
     TObjArray* m_tkrDigiCol; //-> List of Tracker layers
 
-    TClonesArray *m_tkrDiagnosticCloneCol; //->
-    Int_t m_numTkrDiagnostics;
-    static TClonesArray *s_tkrDiagnosticStaticCol; //! Collection of TKR diagnostic for EM
+ //   TClonesArray *m_tkrDiagnosticCloneCol; //->
+ //   Int_t m_numTkrDiagnostics;
+//    static TClonesArray *s_tkrDiagnosticStaticCol; //! Collection of TKR diagnostic for EM
 
-    TClonesArray *m_calDiagnosticCloneCol; //->
-    Int_t m_numCalDiagnostics;
-    static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
+ //   TClonesArray *m_calDiagnosticCloneCol; //->
+ //   Int_t m_numCalDiagnostics;
+//    static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
 
     ClassDef(DigiEvent,7) // Storage for Raw(Digi) event and subsystem data
 }; 

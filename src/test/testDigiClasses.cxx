@@ -58,6 +58,7 @@ int checkDigiEvent(DigiEvent *evt, UInt_t ievent) {
     return 0;
 }
 
+/*
 int checkCalDiagnostic(const CalDiagnostic *calDiag) {
     if (calDiag->getDataWord() != 10101) {
         std::cout << "CalDiagnostic data word is wrong" << std::endl;
@@ -85,7 +86,7 @@ int checkTkrDiagnostic(const TkrDiagnostic *tkrDiag) {
     }
     return 0;
 }
-
+*/
 int checkL1T(const L1T &level1) {
 
     if (level1.getTriggerWord() != 13) {
@@ -147,7 +148,7 @@ int checkCalDigi(CalDigi *digi, UInt_t ievent) {
     }
     const CalXtalReadout *calReadout;
 
-    int iReadout;
+    unsigned int iReadout;
     for (iReadout = 0; iReadout<numEntries; iReadout++){
         calReadout = &(readoutCol[iReadout]);
         calReadout->Print();
@@ -408,6 +409,7 @@ int read(char* fileName, int numEvents) {
             idigi++;
         }
 
+/*
         const TClonesArray *calDiagCol = evt->getCalDiagnosticCol();
         if (calDiagCol->GetEntries() != numCalDiag) return -1;
         TIter calDiagIt(calDiagCol);
@@ -425,6 +427,7 @@ int read(char* fileName, int numEvents) {
             tDiag->Print();
             if (checkTkrDiagnostic(tDiag) < 0) return -1;
         }
+*/
  }
     
     f->Close();
@@ -496,6 +499,7 @@ int write(char* fileName, int numEvents) {
             ev->addAcdDigi(id, volId, energy, pha, veto, low, high);
         }
 
+/*
         int idiag;
         for (idiag = 0; idiag < numCalDiag; idiag++) {
             CalDiagnostic *calDiag = ev->addCalDiagnostic();
@@ -507,7 +511,7 @@ int write(char* fileName, int numEvents) {
             UInt_t dataWord = 20301;
             tkrDiag->initialize(dataWord, 4);
         }
-
+*/
         t->Fill();
         ev->Clear();
     }
