@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 22 15:19:47 PDT 2004
+digiRootData/src
+
+Removed Files:
+	CalXtalId.cxx TowerId.cxx AcdId.cxx 
+Log Message:
+moved all idents classes to commonRootData
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 22 15:19:08 PDT 2004
 digiRootData/digiRootData
 
