@@ -5,14 +5,14 @@ use GlastPolicy
 use ROOT
 
 
-ignore_pattern include_none
+#ignore_pattern include_none
 apply_pattern package_include
 
 apply_pattern package_linkopts
 
 apply_pattern ld_library_path
 
-
+apply_pattern package_headers
 
 private
 
@@ -41,17 +41,6 @@ macro digiRootData_shlibflags " -L${ROOT_PATH}/lib -lPhysics -lMatrix " \
 
 # I think this is still ok?
 library  digiRootData *.cxx \
-     ../digiRootData/EventCint.cxx\
-     ../digiRootData/EventCint.h\
-     ../digiRootData/ACDTile.h\
-     ../digiRootData/CalHit.h\
-     ../digiRootData/ESAPID.h\
-     ../digiRootData/Event.h\
-     ../digiRootData/EventLinkDef.h\
-     ../digiRootData/L1T.h\
-     ../digiRootData/LogID.h\
-     ../digiRootData/StripID.h\
-     ../digiRootData/Tagger.h\
-     ../digiRootData/TileID.h\
-     ../digiRootData/TkrLayer.h
+     ../digiRootData/*.cxx\
+     ${digiRootData_headers}
 
