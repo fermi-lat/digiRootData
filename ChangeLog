@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar  9 22:26:26 PST 2004
+digiRootData/src
+
+Added Files:
+	CalDiagnostic.cxx TkrDiagnostic.cxx EventSummaryData.cxx 
+Log Message:
+make EM digiRootData mainline
+    *
+------------------------------------------------------------
 User: heather  Tue Mar  9 22:13:54 PST 2004
 digiRootData/digiRootData
 
