@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 17 21:34:25 PDT 2001
+digiRootData/digiRootData DigiEvent.h dorootcint.bat EventCint.cxx EventCint.h EventLinkDef.h Event.h
+
+Modified Files:
+	dorootcint.bat EventCint.cxx EventCint.h EventLinkDef.h 
+Added Files:
+	DigiEvent.h 
+Removed Files:
+	Event.h 
+Log Message:
+renamed Event class to DigiEvent
+    *
+------------------------------------------------------------
 User: igable  Sun Jul 15 13:32:09 PDT 2001
 digiRootData/cmt requirements
 
