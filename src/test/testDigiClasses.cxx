@@ -22,6 +22,8 @@ const UInt_t runNum = 1;
 const UInt_t numXtals = 10;
 const UInt_t numDigi = 12;
 const UInt_t numAcd = 11;
+const UInt_t numCalDiag = 4;
+const UInt_t numTkrDiag = 2;
 const Bool_t fromMc = true;
 Float_t randNum;
 
@@ -51,6 +53,38 @@ int checkDigiEvent(DigiEvent *evt, UInt_t ievent) {
 
     if (evt->getFromMc() != fromMc) {
         std::cout << "From MC flag is wrong" << std::endl;
+        return -1;
+    }
+    return 0;
+}
+
+int checkCalDiagnostic(const CalDiagnostic *calDiag) {
+    if (calDiag->getDataWord() != 10101) {
+        std::cout << "CalDiagnostic data word is wrong" << std::endl;
+        return -1;
+    }
+    if (calDiag->getGccc() != 5) {
+        std::cout << "CalDiagnostic GTCC is not 5" << std::endl;
+        return -1;
+    }
+    if (calDiag->getLayer() != 3) {
+        std::cout << "CalDiagnostic Layer is wrong" << std::endl;
+        return -1;
+    }
+    if (strcmp(calDiag->getLabel(), "x2") != 0) {
+        std::cout << "CalDiagnostic Label is wrong" << std::endl;
+        return -1;
+    }
+    return 0;
+}
+
+int checkTkrDiagnostic(const TkrDiagnostic *tkrDiag) {
+    if (tkrDiag->getTriggerRequest() != 20301) {
+        std::cout << "TkrDiagnostic datum is wrong" << std::endl;
+        return -1;
+    }
+    if (tkrDiag->getGtcc() != 4) {
+        std::cout << "TkrDiagnostic gtcc is wrong" << std::endl;
         return -1;
     }
     return 0;
@@ -378,6 +412,23 @@ int read(char* fileName, int numEvents) {
             idigi++;
         }
 
+        const TClonesArray *calDiagCol = evt->getCalDiagnosticCol();
+        if (calDiagCol->GetEntries() != numCalDiag) return -1;
+        TIter calDiagIt(calDiagCol);
+        CalDiagnostic *cDiag = 0;
+        while (cDiag=(CalDiagnostic*)calDiagIt.Next()) {
+            cDiag->Print();
+            if (checkCalDiagnostic(cDiag) < 0) return -1;
+        }
+
+        const TClonesArray *tkrDiagCol = evt->getTkrDiagnosticCol();
+        if (tkrDiagCol->GetEntries() != numTkrDiag) return -1;
+        TIter tkrDiagIt(tkrDiagCol);
+        TkrDiagnostic *tDiag = 0;
+        while (tDiag=(TkrDiagnostic*)tkrDiagIt.Next()) {
+            tDiag->Print();
+            if (checkTkrDiagnostic(tDiag) < 0) return -1;
+        }
  }
     
     f->Close();
@@ -447,6 +498,18 @@ int write(char* fileName, int numEvents) {
             volId.Clear();
             volId.append(1);
             ev->addAcdDigi(id, volId, energy, pha, veto, low, high);
+        }
+
+        int idiag;
+        for (idiag = 0; idiag < numCalDiag; idiag++) {
+            CalDiagnostic *calDiag = ev->addCalDiagnostic();
+            UInt_t dataWord = 10101;
+            calDiag->initialize(dataWord, "x2", 5, 3);
+        }
+        for (idiag=0; idiag<numTkrDiag; idiag++) {
+            TkrDiagnostic *tkrDiag = ev->addTkrDiagnostic();
+            UInt_t dataWord = 20301;
+            tkrDiag->initialize(dataWord, 4);
         }
 
         t->Fill();
