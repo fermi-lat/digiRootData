@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Thu Jun 26 19:50:23 PDT 2003
+digiRootData/src
+
+Modified Files:
+	TkrDigi.cxx 
+Log Message:
+fix "lastController0Strip = -1" problem
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 12 18:24:28 PDT 2003
 digiRootData/cmt
 
