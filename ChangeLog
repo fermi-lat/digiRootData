@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 27 08:09:06 PDT 2001
+digiRootData/src AcdDigi.cxx
+
+Removed Files:
+	AcdDigi.cxx 
+Log Message:
+removed
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 26 15:24:00 PDT 2001
 digiRootData/src TkrDigi.cxx SubSystemHeader.cxx CalLogId.cxx CalDigi.cxx AcdId.cxx AcdDigi.cxx TkrHeader.cxx StripID.cxx Event.cxx CalHeader.cxx AcdHeader.cxx TkrLayer.cxx TileID.cxx LogID.cxx CalHit.cxx ACDTile.cxx
 
