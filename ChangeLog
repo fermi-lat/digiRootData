@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun  5 07:28:06 PDT 2002
+digiRootData/digiRootData
+
+Removed Files:
+	TkrLayer.h AcdTile.h 
+Log Message:
+removing old classes
+    *
+------------------------------------------------------------
 User: heather  Wed May 22 17:35:54 PDT 2002
 digiRootData/digiRootData
 
