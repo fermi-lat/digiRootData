@@ -1,5 +1,5 @@
 package digiRootData
-version v1r2
+version v1r1p1
 
 use GlastPolicy
 use ROOT
