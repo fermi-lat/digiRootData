@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Nov 24 18:03:20 PST 2003
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	DigiEvent.h 
+Log Message:
+comment out diagnostic for now
+    *
+------------------------------------------------------------
 User: heather  Mon Nov 24 18:02:35 PST 2003
 digiRootData/cmt
 
