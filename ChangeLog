@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 29 09:40:46 PDT 2002
+digiRootData/src
+
+Removed Files:
+	CalLog.cxx CalLogId.cxx ESAPID.cxx LogId.cxx Tagger.cxx 
+Log Message:
+removing old classes used for beamtest and balloon
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 29 09:39:29 PDT 2002
 digiRootData/digiRootData
 
