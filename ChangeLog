@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed May 15 12:38:31 PDT 2002
+digiRootData/cmt
+
+Modified Files:
+	dorootcint.bat 
+Log Message:
+update bat file, removing references to mcRootData
+    *
+------------------------------------------------------------
 User: heather  Tue May 14 08:45:27 PDT 2002
 digiRootData/src
 
