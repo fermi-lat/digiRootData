@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Oct 16 06:28:22 PDT 2001
+digiRootData/digiRootData EventCint.cxx EventLinkDef.h
+
+Modified Files:
+	EventCint.cxx EventLinkDef.h 
+Log Message:
+add + in LinkDef header file...needed to use streamers correctly
+    *
+------------------------------------------------------------
 User: heather  Fri Aug 31 12:31:32 PDT 2001
 digiRootData/cmt requirements
 
