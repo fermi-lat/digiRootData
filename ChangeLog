@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Aug 10 10:05:02 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved RootPolicy to GlastPolicy/RootcintPolicy -- tagging p1
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 22 23:04:37 PDT 2004
 digiRootData/doc/images
 
