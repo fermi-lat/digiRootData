@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug  7 13:03:53 PDT 2001
+digiRootData/src AcdTile.cxx
+
+Modified Files:
+	AcdTile.cxx 
+Log Message:
+fix storage of veto bit
+    *
+------------------------------------------------------------
 TAG activity
 User: heather  Thu Aug  2 18:03:06 2001
 Tag name: v2r5
