@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 16 23:00:28 PDT 2004
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+use new RootPolicy pattern for rootcint
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 16 22:59:23 PDT 2004
 digiRootData/cmt
 
