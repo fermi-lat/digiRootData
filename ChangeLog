@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Feb 16 18:52:42 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	EventSummaryData.h Gem.h L1T.h 
+Log Message:
+start using enums package
+    *
+------------------------------------------------------------
 User: heather  Wed Feb 16 18:52:27 PST 2005
 digiRootData/cmt
 
