@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Mar 12 22:04:37 PST 2004
+digiRootData/digiRootData
+
+Added Files:
+	TkrDiagnosticData.h 
+Removed Files:
+	TkrDiagnostic.h 
+Log Message:
+renamed TkrDiagnostic.h to TkrDiagnosticData.h
+    *
+------------------------------------------------------------
 User: heather  Fri Mar 12 22:03:56 PST 2004
 digiRootData/digiRootData
 
