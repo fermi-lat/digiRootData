@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: tlindner  Thu Apr 26 16:26:12 PDT 2001
+digiRootData/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+Couple fixes.  
+
+The automatic rootcint step doesn't yet work on Windows.
+You need to manually run the cmt\setup.bat file, then the digiRootData\dorootcint.bat scripts before compiling
+
+    *
+------------------------------------------------------------
 User: heather  Thu Apr 26 15:56:28 PDT 2001
 digiRootData/cmt requirements
 
