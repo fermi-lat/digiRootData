@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 24 13:45:40 PST 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+store tower and layer/gtcc for CAL/TKR diagnostic
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r10, operation: add
 Package: digiRootData
