@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 16 22:54:28 PDT 2004
+digiRootData/digiRootData
+
+Removed Files:
+	AcdHeader.h CalHeader.h TkrHeader.h SubSystemHeader.h 
+Log Message:
+remove old classes
+    *
+------------------------------------------------------------
 User: burnett  Wed Jun 16 21:52:32 PDT 2004
 digiRootData/src
 
