@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 20 07:32:58 PDT 2001
+digiRootData/src TkrHeader.cxx CalHeader.cxx AcdHeader.cxx TkrLayer.cxx L1T.cxx Event.cxx CalHit.cxx ACDTile.cxx TkrDigi.cxx CalDigi.cxx AcdDigi.cxx
+
+Modified Files:
+	TkrLayer.cxx L1T.cxx Event.cxx CalHit.cxx ACDTile.cxx 
+Added Files:
+	TkrHeader.cxx CalHeader.cxx AcdHeader.cxx 
+Removed Files:
+	TkrDigi.cxx CalDigi.cxx AcdDigi.cxx 
+Log Message:
+re-arranging to use TClonesArray properly
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 20 07:30:36 PDT 2001
 digiRootData/digiRootData TkrHeader.h CalHeader.h AcdHeader.h L1T.h EventLinkDef.h EventCint.h EventCint.cxx Event.h dorootcint.bat CalHit.h ACDTile.h TkrDigi.h CalDigi.h AcdDigi.h
 
