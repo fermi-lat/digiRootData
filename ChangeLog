@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May 27 16:36:16 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+move ldfExt use to private
+    *
+------------------------------------------------------------
 User: heather  Thu May 27 15:49:27 PDT 2004
 digiRootData/cmt
 
