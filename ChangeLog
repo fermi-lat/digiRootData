@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Thu Aug  2 10:51:06 PDT 2001
+digiRootData/digiRootData LiveTime.h StripId.h EventLinkDef.h EventCint.h EventCint.cxx dorootcint.bat DigiEvent.h CalLog.h
+
+Modified Files:
+	StripId.h EventLinkDef.h EventCint.h EventCint.cxx 
+	dorootcint.bat DigiEvent.h CalLog.h 
+Added Files:
+	LiveTime.h 
+Log Message:
+updates to handle TKR controllers and add live time object
+    *
+------------------------------------------------------------
 User: heather  Thu Aug  2 10:42:21 PDT 2001
 digiRootData/cmt requirements
 
