@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Feb 23 12:15:10 PST 2005
+digiRootData/src
+
+Modified Files:
+	L1T.cxx 
+Log Message:
+make number of trigger bits available again through L1T for systests
+    *
+------------------------------------------------------------
 User: heather  Wed Feb 23 12:15:01 PST 2005
 digiRootData/digiRootData
 
