@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: heather  Tue Nov 11 23:18:52 PST 2003
+digiRootData/src
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	DigiEvent.cxx 
+Added Files:
+      Tag: v4r2p0-em-branch
+	CalDiagnostic.cxx TkrDiagnostic.cxx 
+Log Message:
+add Diagnostic data
+    *
+------------------------------------------------------------
 User: heather  Tue Nov 11 23:17:41 PST 2003
 digiRootData/digiRootData
 
