@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 28 11:33:39 PDT 2001
+digiRootData/digiRootData EventLinkDef.h EventCint.h EventCint.cxx dorootcint.bat CalLog.h
+
+Modified Files:
+	EventLinkDef.h EventCint.h EventCint.cxx dorootcint.bat 
+	CalLog.h 
+Log Message:
+go back to LogId..we have a name conflict if we use CalLogId
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 27 08:39:29 PDT 2001
 /digiRootData/digiRootData StripId.h StripID.h
 
