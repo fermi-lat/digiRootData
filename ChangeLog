@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 29 10:48:09 PDT 2002
+digiRootData/cmt
+
+Modified Files:
+	dorootcint.bat requirements 
+Log Message:
+remove old classes:  CalLog, CalLogId from rootcint statement
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 29 10:47:19 PDT 2002
 digiRootData/src
 
