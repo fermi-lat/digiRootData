@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue May 14 08:14:01 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h 
+Log Message:
+had mistakenly set caldigi collection as transient
+    *
+------------------------------------------------------------
 User: heather  Tue May 14 08:13:02 PDT 2002
 digiRootData/doc
 
