@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Dec 18 14:13:03 PST 2003
+digiRootData/src/test
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	testDigiClasses.cxx 
+Log Message:
+reactivate diagnostic testing
+    *
+------------------------------------------------------------
 User: heather  Thu Dec 18 13:07:14 PST 2003
 digiRootData/src
 
