@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 10 14:30:39 PDT 2001
+digiRootData/src Event.cxx TkrLayer.cxx
+
+Modified Files:
+	Event.cxx TkrLayer.cxx 
+Log Message:
+add plane number routines
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 10 14:29:51 PDT 2001
 digiRootData/digiRootData EventCint.cxx TkrLayer.h
 
