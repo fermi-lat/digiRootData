@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Apr  5 14:39:06 PDT 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+handle new 32 bit evt seq num in LDF
+    *
+------------------------------------------------------------
 User: heather  Tue Apr  5 14:38:55 PDT 2005
 digiRootData/digiRootData
 
