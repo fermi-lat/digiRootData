@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Jan 16 12:05:52 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	TkrDigi.h 
+Log Message:
+re-introduce std::vector for linux
+    *
+------------------------------------------------------------
 User: heather  Fri Jan 16 12:05:39 PST 2004
 digiRootData/doc
 
