@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 29 10:46:15 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	CalDigi.h CalXtalId.h DigiEvent.h EventLinkDef.h 
+Added Files:
+	CalXtalReadout.h 
+Log Message:
+renaming CalLogReadout to CalXtalReadout - fix DigiEvent to use
+CalDigi rather than CalLog
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 29 09:50:11 PDT 2002
 digiRootData/src
 
