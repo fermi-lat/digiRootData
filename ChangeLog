@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Apr 30 23:41:30 PDT 2004
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+sort the ACD collection if necessary
+    *
+------------------------------------------------------------
 User: heather  Tue Apr 27 08:49:27 PDT 2004
 digiRootData/doc
 
