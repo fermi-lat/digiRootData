@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue May 14 08:16:02 PDT 2002
+digiRootData/src
+
+Modified Files:
+	CalXtalReadout.cxx CalDigi.cxx 
+Log Message:
+fix bug in CalXtalReadout - setting rangeM incorrectly
+    *
+------------------------------------------------------------
 User: heather  Tue May 14 08:14:54 PDT 2002
 digiRootData/src/test
 
