@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 22 15:16:25 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved all idents classes to commonRootData
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 22 14:44:43 PDT 2004
 digiRootData/digiRootData
 
