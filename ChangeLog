@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Nov 25 23:01:32 PST 2003
+digiRootData/cmt
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	requirements 
+Log Message:
+handle event summary and use the EBF library
+    *
+------------------------------------------------------------
 User: heather  Tue Nov 25 23:01:16 PST 2003
 digiRootData/doc
 
