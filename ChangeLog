@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+TAG activity
+User: heather  Thu Aug  2 18:03:06 2001
+Tag name: v2r5
+Tag operation: mov
+Repository: /nfs/slac/g/glast/ground/cvs/digiRootData/digiRootData
+File(s) and revision(s): LiveTime.h
+    *
+------------------------------------------------------------
 User: heather  Thu Aug  2 18:02:46 PDT 2001
 digiRootData/digiRootData LiveTime.h EventCint.cxx
 
