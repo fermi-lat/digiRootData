@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 29 09:39:29 PDT 2002
+digiRootData/digiRootData
+
+Removed Files:
+	CalLog.h CalLogId.h ESAPID.h LogId.h stuff.h Tagger.h 
+Log Message:
+removing old classes used for beamtest and balloon
+    *
+------------------------------------------------------------
 User: heather  Wed Apr 24 12:42:05 PDT 2002
 digiRootData/cmt
 
