@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 16 22:55:38 PDT 2004
+digiRootData/src
+
+Removed Files:
+	AcdHeader.cxx CalHeader.cxx TkrHeader.cxx SubSystemHeader.cxx 
+Log Message:
+remove old classes
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 16 22:54:28 PDT 2004
 digiRootData/digiRootData
 
