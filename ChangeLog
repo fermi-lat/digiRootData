@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Wed Jun  5 14:34:08 PDT 2002
+digiRootData/src
+
+Modified Files:
+	TowerId.cxx TkrDigi.cxx mainpage.h DigiEvent.cxx 
+	CalXtalReadout.cxx CalDigi.cxx AcdId.cxx 
+Added Files:
+	AcdDigi.cxx 
+Log Message:
+add in new AcdDigi and clean up other classes for printing
+    *
+------------------------------------------------------------
 User: heather  Wed Jun  5 14:32:13 PDT 2002
 digiRootData/src/test
 
