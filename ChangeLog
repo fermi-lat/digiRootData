@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Apr  9 12:21:20 PDT 2002
+digiRootData/src
+
+Added Files:
+	CalLogReadout.cxx CalLogId.cxx CalDigi.cxx 
+Log Message:
+new Cal digi classes
+    *
+------------------------------------------------------------
 User: heather  Fri Apr  5 11:34:58 PST 2002
 digiRootData/digiRootData
 
