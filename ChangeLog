@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jun 10 16:50:40 PDT 2002
+digiRootData/src
+
+Modified Files:
+	AcdDigi.cxx DigiEvent.cxx 
+Log Message:
+add VolumeIdentifier to AcdDigi
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 10 16:48:01 PDT 2002
 digiRootData/digiRootData
 
