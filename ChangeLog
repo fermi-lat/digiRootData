@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May 27 15:49:27 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Use ldf online external rather than ebf, and do not specify version of GlastPolicy
+    *
+------------------------------------------------------------
 User: heather  Thu May 27 15:48:54 PDT 2004
 digiRootData/doc
 
