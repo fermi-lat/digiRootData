@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Aug 23 10:19:22 PDT 2004
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+fix up printing of number of cal and acd digis
+    *
+------------------------------------------------------------
 User: heather  Wed Aug 18 13:34:04 PDT 2004
 digiRootData/doc
 
