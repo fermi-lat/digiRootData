@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Nov 24 13:46:29 PST 2004
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx 
+Log Message:
+store tower and layer/gtcc for CAL/TKR diagnostic
+    *
+------------------------------------------------------------
+User: heather  Wed Nov 24 13:46:29 PST 2004
 digiRootData/src
 
 Modified Files:
