@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 20:53:40 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	Gem.h 
+Log Message:
+fix up warnings in new condition summary methods
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 14 14:38:39 PDT 2004
 digiRootData/digiRootData
 
