@@ -62,10 +62,23 @@ public:
 
     inline Double_t getTimeStamp() { return m_timeStamp; };
 
-    inline UInt_t getEbfTimeSec() { return m_ebfTimeSec; };
-    inline UInt_t getEbfTimeNanoSec() { return m_ebfTimeNanoSec; };
-    inline UInt_t getEbfUpperPpcTimeBase() { return m_ebfUpperPpcTimeBase; };
-    inline UInt_t getEbfLowerPpcTimeBase() { return m_ebfLowerPpcTimeBase; };
+    inline UInt_t getEbfTimeSec() const { return m_ebfTimeSec; };
+    inline UInt_t getEbfTimeNanoSec() const { return m_ebfTimeNanoSec; };
+    inline UInt_t getEbfUpperPpcTimeBase() const { return m_ebfUpperPpcTimeBase; };
+    inline UInt_t getEbfLowerPpcTimeBase() const { return m_ebfLowerPpcTimeBase; };
+    /// Return the approximate number of seconds elapsed since power on
+    /// by dividing the value in the PPC registers by 16 MHz
+    inline Double_t getEbfTimeBase() const { 
+        const Double_t sixteenMHz = 16000000.;
+        // To handle th 64-bit value - we separate the computation
+        // The upper 32 bits would have to be shifted by 31 (or multiplied)
+        // by 2^32 - we divide this by 16000000 to get the upperMultiplier
+        const Double_t upperMultiplier = 268.435456; 
+        Double_t lower = m_ebfLowerPpcTimeBase / sixteenMHz;
+        Double_t upper = m_ebfUpperPpcTimeBase * upperMultiplier;
+        return (upper + lower);
+    };
+
 
     /// Access the DigiEvent number
     inline UInt_t getEventId() { return m_eventId; };
@@ -157,6 +170,7 @@ private:
     Int_t m_numCalDiagnostics;
     static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
 
+    /// These two words represent the original clock for the EM at 30 Hz
     UInt_t m_ebfTimeSec;
     UInt_t m_ebfTimeNanoSec;
 
