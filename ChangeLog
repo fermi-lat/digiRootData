@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Dec 19 00:01:00 PST 2003
+digiRootData/src
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	DigiEvent.cxx 
+Log Message:
+handle EBF time
+    *
+------------------------------------------------------------
 User: heather  Fri Dec 19 00:00:41 PST 2003
 digiRootData/digiRootData
 
