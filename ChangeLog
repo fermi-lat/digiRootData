@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 27 08:38:34 PDT 2001
+/digiRootData/src StripId.cxx StripID.cxx
+
+Added Files:
+	StripId.cxx 
+Removed Files:
+	StripID.cxx 
+Log Message:
+Renaming StripID to StripId
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 27 08:37:31 PDT 2001
 /digiRootData/src AcdTile.cxx
 
