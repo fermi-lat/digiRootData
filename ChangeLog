@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Aug 26 13:36:21 PDT 2002
+digiRootData/cmt
+
+Removed Files:
+	cd.cmd dorootcint.bat dorootcint.csh dorootcint.sh 
+Log Message:
+remove old method of producing rootcint files
+    *
+------------------------------------------------------------
 User: heather  Mon Aug 26 13:28:30 PDT 2002
 digiRootData/doc
 
