@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Wed Mar  5 16:07:07 PST 2003
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h CalDigi.h 
+Log Message:
+Cal digi ROOT format modified for faster reading, TObjArray replaced by TClonesArray
+    *
+------------------------------------------------------------
 User: heather  Thu Feb  6 06:15:26 PST 2003
 digiRootData/src/test
 
