@@ -3,6 +3,7 @@ Package digiRootData
 Coordinator:H.Kelly
 @verbatim
 
+v4r2p0em9 27-Jan-2004 HMK Add PPC registers for proper event sequencing
 v4r2p0em8 26-Jan-2004 HMK fix old TObjArray usage for CalDigis
 v4r2p0em7 19-Jan-2004 HMK use std::vector namespace for both Win and Linux
 v4r2p0em6 18-Dec-2003 HMK handle EBF time

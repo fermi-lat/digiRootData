@@ -48,9 +48,12 @@ public:
     void initialize(UInt_t eventId, UInt_t runId, Double_t time, 
         const L1T& level1, const EventSummaryData &summary, Bool_t fromMc=true);
 
-    void setEbfTime(UInt_t timeSec, UInt_t timeNanoSec) {
+    void setEbfTime(UInt_t timeSec, UInt_t timeNanoSec, 
+                    UInt_t upperPpcTimeBase, UInt_t lowerPpcTimeBase) {
         m_ebfTimeSec = timeSec;
         m_ebfTimeNanoSec = timeNanoSec;
+        m_ebfUpperPpcTimeBase = upperPpcTimeBase;
+        m_ebfLowerPpcTimeBase = lowerPpcTimeBase;
     }
 
     void Clear(Option_t *option="");
@@ -61,6 +64,8 @@ public:
 
     inline UInt_t getEbfTimeSec() { return m_ebfTimeSec; };
     inline UInt_t getEbfTimeNanoSec() { return m_ebfTimeNanoSec; };
+    inline UInt_t getEbfUpperPpcTimeBase() { return m_ebfUpperPpcTimeBase; };
+    inline UInt_t getEbfLowerPpcTimeBase() { return m_ebfLowerPpcTimeBase; };
 
     /// Access the DigiEvent number
     inline UInt_t getEventId() { return m_eventId; };
@@ -155,7 +160,15 @@ private:
     UInt_t m_ebfTimeSec;
     UInt_t m_ebfTimeNanoSec;
 
-    ClassDef(DigiEvent,9) // Storage for Raw(Digi) event and subsystem data
+
+    /// These two words represent the contents of 2 32-bit PPC registers
+    /// Concatenate these two words into one 64 bit word divide by 16 MHz
+    /// and get an approximate time to be used to determine the sequence of 
+    /// events
+    UInt_t m_ebfUpperPpcTimeBase;
+    UInt_t m_ebfLowerPpcTimeBase;
+
+    ClassDef(DigiEvent,10) // Storage for Raw(Digi) event and subsystem data
 }; 
 
 #endif
