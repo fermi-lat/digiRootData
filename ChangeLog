@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Tue Oct 12 23:01:47 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h CalDiagnosticData.h CalDigi.h CalXtalReadout.h 
+	DigiEvent.h EventSummaryData.h Gem.h L1T.h TkrDiagnosticData.h 
+	TkrDigi.h 
+Log Message:
+play with Doxygen
+    *
+------------------------------------------------------------
 User: heather  Tue Oct 12 22:39:27 PDT 2004
 digiRootData/doc
 
