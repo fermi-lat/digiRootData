@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Jan 27 21:33:23 PST 2004
+digiRootData/doc
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	release.notes 
+Log Message:
+handle PPC registers for event sequencing
+    *
+------------------------------------------------------------
 User: heather  Tue Jan 27 10:32:28 PST 2004
 digiRootData/src
 
