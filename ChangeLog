@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 18 11:59:17 PDT 2004
+digiRootData/digiRootData
+
+Modified Files:
+	Gem.h 
+Log Message:
+fix up naming of method to match the rest
+    *
+------------------------------------------------------------
 User: heather  Fri Aug 13 01:18:05 PDT 2004
 digiRootData/src/test
 
