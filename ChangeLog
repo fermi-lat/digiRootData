@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 28 16:16:59 PDT 2001
+digiRootData/digiRootData TkrHeader.h SubSystemHeader.h EventCint.h EventCint.cxx CalHeader.h AcdHeader.h
+
+Modified Files:
+	TkrHeader.h SubSystemHeader.h EventCint.h EventCint.cxx 
+	CalHeader.h AcdHeader.h 
+Log Message:
+update deadtime methods
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 28 11:37:15 PDT 2001
 /digiRootData/src LogId.cxx CalLogId.cxx
 
