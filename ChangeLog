@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Oct 31 08:36:59 PST 2001
+digiRootData/cmt requirements
+
+Modified Files:
+	requirements 
+Log Message:
+update version
+    *
+------------------------------------------------------------
 User: heather  Wed Oct 31 08:35:04 PST 2001
 digiRootData/digiRootData AcdHeader.h AcdId.h AcdTile.h CalHeader.h CalLog.h DigiEvent.h ESAPID.h L1T.h LogId.h StripId.h SubSystemHeader.h Tagger.h TkrHeader.h TkrLayer.h
 
