@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Mar 21 13:49:15 PST 2002
+/digiRootData/cmt
+
+Modified Files:
+      Tag: testbeam
+	requirements 
+Log Message:
+update to get testbeam version to compile using cmt v1r10
+    *
+------------------------------------------------------------
 User: heather  Thu Mar 14 07:56:16 PST 2002
 digiRootData/digiRootData
 
