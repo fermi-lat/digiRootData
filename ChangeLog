@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Oct  2 06:48:49 PDT 2002
+digiRootData/src
+
+Modified Files:
+	AcdId.cxx 
+Log Message:
+add operator ==
+    *
+------------------------------------------------------------
 User: heather  Wed Oct  2 06:48:14 PDT 2002
 digiRootData/doc
 
