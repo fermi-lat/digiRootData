@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 11 09:39:47 PDT 2002
+digiRootData/fragments
+
+Modified Files:
+	event_dorootcint_header 
+Log Message:
+add include for mcRootData
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 10 16:53:06 PDT 2002
 digiRootData/src/test
 
