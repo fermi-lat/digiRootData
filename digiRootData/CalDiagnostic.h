@@ -13,16 +13,15 @@ class CalDiagnostic : public TObject {
 public:
             
     CalDiagnostic();
-    CalDiagnostic(UInt_t datum, const Char_t *label, Short_t gccc, Short_t layer);
+    CalDiagnostic(UInt_t datum, Short_t gccc, Short_t layer);
     virtual ~CalDiagnostic();
 
-    void initialize(UInt_t datum, const Char_t *label, Short_t gccc, Short_t layer);
+    void initialize(UInt_t datum, Short_t gccc, Short_t layer);
 
     void Clear(Option_t *option ="");
 
     void Print(Option_t *option="") const;
 
-    const Char_t* getLabel() const { return m_label; };
     UShort_t getGccc() const { return m_gccc; };
     UShort_t getLayer() const { return m_layer; };
 
@@ -48,7 +47,6 @@ public:
 private:
     /// packed word containing trigger primitives for this set of logs
     UInt_t m_datum;
-    Char_t m_label[3];
     UShort_t m_gccc;
     UShort_t m_layer;
 

@@ -11,22 +11,20 @@ CalDiagnostic::CalDiagnostic() : m_datum(0), m_gccc(0), m_layer(0)
 {
 }
 
-CalDiagnostic::CalDiagnostic(UInt_t datum, const Char_t *label, Short_t gccc, Short_t layer)
+CalDiagnostic::CalDiagnostic(UInt_t datum, Short_t gccc, Short_t layer)
 : m_datum(datum), m_gccc(gccc), m_layer(layer)
 {
-    strcpy(m_label, label);
 }
 
 CalDiagnostic::~CalDiagnostic() {
 
 }
 
-void CalDiagnostic::initialize(UInt_t datum, const Char_t *label, Short_t gccc, Short_t layer)
+void CalDiagnostic::initialize(UInt_t datum, Short_t gccc, Short_t layer)
 {
     m_datum=datum;
     m_gccc=gccc;
     m_layer=layer;
-    strcpy(m_label, label);
 }
 
 void CalDiagnostic::Clear(Option_t *option) {
