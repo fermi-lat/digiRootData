@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: als  Fri Jan  4 16:15:28 PST 2002
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+move digiRootData_shlibflags into public: section for cmt v1r10p20 
+compatibility
+   
+
+    *
+------------------------------------------------------------
 User: heather  Fri Dec 14 07:19:21 PST 2001
 digiRootData/doc
 
