@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 14 14:32:12 PDT 2004
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add enum and methods to unpack GEM condition summary
+    *
+------------------------------------------------------------
 User: heather  Thu Aug 26 13:45:05 PDT 2004
 digiRootData/doc
 
