@@ -206,7 +206,7 @@ CalDigi* DigiEvent::addCalDigi() {
 }
 
 const CalDigi* DigiEvent::getCalDigi(UInt_t i) const {
-    if (m_calDigiCol) return (CalDigi*)m_calDigiCol->At(i);
+    if ((m_calDigiCol) && (m_calDigiCol->GetEntries() > 0)) return (CalDigi*)m_calDigiCol->At(i);
     if (i > m_numCalDigis) return 0;
     return (CalDigi*)m_calDigiCloneCol->At(i);
 }
