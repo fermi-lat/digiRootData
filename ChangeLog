@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Jun 20 12:14:23 PDT 2001
+digiRootData/src TkrLayer.cxx TileID.cxx StripID.cxx ESAPID.cxx CalHit.cxx CalHeader.cxx ACDTile.cxx
+
+Modified Files:
+	TkrLayer.cxx TileID.cxx StripID.cxx ESAPID.cxx CalHit.cxx 
+	CalHeader.cxx ACDTile.cxx 
+Log Message:
+re-arranging to use TClonesArray properly
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 20 12:12:31 PDT 2001
 digiRootData/digiRootData TkrLayer.h TileID.h EventCint.cxx Event.h ESAPID.h CalHit.h ACDTile.h
 
