@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar 15 15:33:24 PST 2005
+digiRootData/src
+
+Modified Files:
+	EventSummaryData.cxx 
+Log Message:
+store all diag and err lengths
+    *
+------------------------------------------------------------
 User: heather  Tue Mar 15 15:33:13 PST 2005
 digiRootData/digiRootData
 
