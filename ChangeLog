@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 22 14:44:43 PDT 2004
+digiRootData/digiRootData
+
+Removed Files:
+	EventLinkDef.h 
+Log Message:
+renamed EventLinkDef.h to LinkDef.h
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 28 10:45:11 PDT 2004
 digiRootData/src
 
