@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Nov 19 23:27:07 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+add TKRRECON bit to event flag in EventSummaryData
+    *
+------------------------------------------------------------
 User: heather  Fri Nov 19 23:26:38 PST 2004
 digiRootData/doc
 
