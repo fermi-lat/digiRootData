@@ -48,11 +48,19 @@ public:
     void initialize(UInt_t eventId, UInt_t runId, Double_t time, 
         const L1T& level1, const EventSummaryData &summary, Bool_t fromMc=true);
 
-    void Clear(Option_t *option="");
+    void setEbfTime(UInt_t timeSec, UInt_t timeNanoSec) {
+        m_ebfTimeSec = timeSec;
+        m_ebfTimeNanoSec = timeNanoSec;
+    }
 
+    void Clear(Option_t *option="");
+ 
     void Print(Option_t *option="") const;
 
     inline Double_t getTimeStamp() { return m_timeStamp; };
+
+    inline UInt_t getEbfTimeSec() { return m_ebfTimeSec; };
+    inline UInt_t getEbfTimeNanoSec() { return m_ebfTimeNanoSec; };
 
     /// Access the DigiEvent number
     inline UInt_t getEventId() { return m_eventId; };
@@ -144,7 +152,10 @@ private:
     Int_t m_numCalDiagnostics;
     static TClonesArray *s_calDiagnosticStaticCol; //! Collection of CAL dianostics for EM
 
-    ClassDef(DigiEvent,8) // Storage for Raw(Digi) event and subsystem data
+    UInt_t m_ebfTimeSec;
+    UInt_t m_ebfTimeNanoSec;
+
+    ClassDef(DigiEvent,9) // Storage for Raw(Digi) event and subsystem data
 }; 
 
 #endif
