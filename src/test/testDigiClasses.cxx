@@ -71,10 +71,6 @@ int checkCalDiagnostic(const CalDiagnostic *calDiag) {
         std::cout << "CalDiagnostic Layer is wrong" << std::endl;
         return -1;
     }
-    if (strcmp(calDiag->getLabel(), "x2") != 0) {
-        std::cout << "CalDiagnostic Label is wrong" << std::endl;
-        return -1;
-    }
     return 0;
 }
 
@@ -504,7 +500,7 @@ int write(char* fileName, int numEvents) {
         for (idiag = 0; idiag < numCalDiag; idiag++) {
             CalDiagnostic *calDiag = ev->addCalDiagnostic();
             UInt_t dataWord = 10101;
-            calDiag->initialize(dataWord, "x2", 5, 3);
+            calDiag->initialize(dataWord, 5, 3);
         }
         for (idiag=0; idiag<numTkrDiag; idiag++) {
             TkrDiagnostic *tkrDiag = ev->addTkrDiagnostic();
