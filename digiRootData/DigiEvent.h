@@ -12,6 +12,7 @@
 
 //#include "TkrDiagnostic.h"
 //#include "CalDiagnostic.h"
+#include "EventSummaryData.h"
 
 /** @class DigiEvent
  * @brief This is the top-level event class to store the Digi data.
@@ -44,7 +45,7 @@ public:
     virtual ~DigiEvent();
 
     void initialize(UInt_t eventId, UInt_t runId, Double_t time, 
-        const L1T& level1, Bool_t fromMc=true);
+        const L1T& level1, const EventSummaryData &summary, Bool_t fromMc=true);
 
     void Clear(Option_t *option="");
 
@@ -88,6 +89,9 @@ public:
     /// Access Level 1 Trigger data
     inline const L1T& getL1T() const { return m_levelOneTrigger; };    
 
+    inline const EventSummaryData& getEventSummaryData() const { return m_summary; };
+    inline EventSummaryData& getEventSummaryData() { return m_summary; };
+
 /*
     const TClonesArray *getCalDiagnosticCol() { return m_calDiagnosticCloneCol;};
     CalDiagnostic* addCalDiagnostic();
@@ -128,6 +132,9 @@ private:
     /// data members to store TKR data
     static TObjArray *s_staticTkrDigiCol;
     TObjArray* m_tkrDigiCol; //-> List of Tracker layers
+
+
+    EventSummaryData m_summary;
 
  //   TClonesArray *m_tkrDiagnosticCloneCol; //->
  //   Int_t m_numTkrDiagnostics;
