@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Nov 30 12:34:39 PST 2004
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h 
+Log Message:
+store live time at toplevel as well as in GEM.handles both MC and real data
+    *
+------------------------------------------------------------
 User: heather  Tue Nov 30 12:34:26 PST 2004
 digiRootData/src/test
 
