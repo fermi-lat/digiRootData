@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Mon May 13 12:31:22 PDT 2002
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx leaktest.cxx 
+Added Files:
+	.rootrc 
+Log Message:
+update tests
+    *
+------------------------------------------------------------
 User: heather  Mon May 13 12:30:43 PDT 2002
 digiRootData/cmt
 
