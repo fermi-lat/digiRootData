@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul 12 04:39:53 PDT 2001
+digiRootData/digiRootData EventCint.cxx EventCint.h
+
+Modified Files:
+	EventCint.cxx EventCint.h 
+Log Message:
+Fix up use of enum
+    *
+------------------------------------------------------------
 User: heather  Thu Jul 12 04:39:21 PDT 2001
 digiRootData/src Event.cxx
 
