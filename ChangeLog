@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Mar  9 22:13:54 PST 2004
+digiRootData/digiRootData
+
+Added Files:
+	CalDiagnostic.h TkrDiagnostic.h EventSummaryData.h 
+Log Message:
+make EM digiRootData mainline
+    *
+------------------------------------------------------------
 User: heather  Tue Mar  9 18:23:23 PST 2004
 digiRootData/src/test
 
