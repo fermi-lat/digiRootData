@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  7 10:32:45 PST 2002
+digiRootData/digiRootData
+
+Removed Files:
+	EventCint.cxx EventCint.h 
+Log Message:
+Removing Cint files, will be generated automatically from now on
+    *
+------------------------------------------------------------
 User: heather  Thu Mar  7 10:31:42 PST 2002
 digiRootData/cmt
 
