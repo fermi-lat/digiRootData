@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Feb 23 10:15:45 PST 2005
+digiRootData/doc
+
+Modified Files:
+      Tag: GlastRelease-v6r1p2
+	release.notes 
+Log Message:
+temporary branch until we're ready for new trigger bit org
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-v6r1p2, operation: add
 Package: digiRootData
