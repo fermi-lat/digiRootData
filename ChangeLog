@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 10 09:45:17 PDT 2001
+digiRootData/src AcdId.cxx Event.cxx
+
+Modified Files:
+	AcdId.cxx Event.cxx 
+Log Message:
+store readoutIndex of the Acd/Xgts
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 10 09:44:36 PDT 2001
 digiRootData/digiRootData AcdId.h Event.h EventCint.cxx
 
