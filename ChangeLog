@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Fri Mar 12 22:06:03 PST 2004
+digiRootData/src
+
+Added Files:
+	CalDiagnosticData.cxx 
+Removed Files:
+	CalDiagnostic.cxx 
+Log Message:
+renamed CalDiagnostic.cxx to CalDiagnosticData.cxx
+    *
+------------------------------------------------------------
 User: heather  Fri Mar 12 22:04:37 PST 2004
 digiRootData/digiRootData
 
