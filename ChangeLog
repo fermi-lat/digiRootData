@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May  3 18:14:07 PDT 2002
+digiRootData/src
+
+Modified Files:
+	CalDigi.cxx CalXtalId.cxx CalXtalReadout.cxx DigiEvent.cxx 
+Log Message:
+fix cal digi classes
+    *
+------------------------------------------------------------
 User: heather  Fri May  3 18:09:03 PDT 2002
 digiRootData/src/test
 
