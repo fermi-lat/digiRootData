@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: berthon  Tue Jun  3 02:00:11 PDT 2003
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Log Message:
+test for buffer limit in Clear
+
+    *
+------------------------------------------------------------
 User: berthon  Mon Jun  2 09:19:32 PDT 2003
 digiRootData/src
 
