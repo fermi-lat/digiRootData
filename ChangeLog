@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 26 16:47:57 PST 2004
+digiRootData/cmt
+
+Modified Files:
+      Tag: v4r2p0-em-branch
+	requirements 
+Log Message:
+fix old TObjArray
+    *
+------------------------------------------------------------
 User: heather  Tue Jan 20 08:34:21 PST 2004
 digiRootData/digiRootData
 
