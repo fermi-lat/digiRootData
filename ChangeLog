@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Nov 10 15:50:07 PST 2004
+digiRootData/src
+
+Modified Files:
+	L1T.cxx 
+Log Message:
+upgrade to include new TriRowBits in L1T
+    *
+------------------------------------------------------------
 User: heather  Wed Nov 10 15:49:37 PST 2004
 digiRootData/digiRootData
 
