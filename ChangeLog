@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 22 13:24:45 PDT 2001
+digiRootData/digiRootData EventCint.cxx AcdTile.h
+
+Modified Files:
+	EventCint.cxx AcdTile.h 
+Log Message:
+store CNO bit
+    *
+------------------------------------------------------------
 User: heather  Tue Aug  7 14:57:38 PDT 2001
 digiRootData/digiRootData EventCint.cxx
 
