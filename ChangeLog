@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jan  4 15:32:21 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	EventSummaryData.h 
+Log Message:
+handle ldf error bits
+    *
+------------------------------------------------------------
 TAG
 Tag name: v7r12, operation: add
 Package: digiRootData
