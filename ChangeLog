@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May  3 18:09:03 PDT 2002
+digiRootData/src/test
+
+Added Files:
+	leaktest.cxx testDigiClasses.cxx 
+Log Message:
+adding new test routines
+    *
+------------------------------------------------------------
 User: heather  Fri May  3 18:06:54 PDT 2002
 digiRootData/src/test
 
