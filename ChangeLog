@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon May 13 12:32:20 PDT 2002
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h 
+Log Message:
+provide default value for fromMc
+    *
+------------------------------------------------------------
 User: heather  Mon May 13 12:31:22 PDT 2002
 digiRootData/src/test
 
