@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Nov 30 12:34:26 PST 2004
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx 
+Log Message:
+store live time at toplevel as well as in GEM.handles both MC and real data
+    *
+------------------------------------------------------------
+User: heather  Tue Nov 30 12:34:26 PST 2004
 digiRootData/src
 
 Modified Files:
