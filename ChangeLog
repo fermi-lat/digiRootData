@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar 24 13:22:58 PST 2003
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h CalDigi.h 
+Log Message:
+update to maintain backward compatibility and use TClonesArray for CAL data
+    *
+------------------------------------------------------------
 User: heather  Mon Mar 24 13:15:54 PST 2003
 digiRootData/doc
 
