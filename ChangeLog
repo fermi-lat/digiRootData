@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Oct 31 08:35:04 PST 2001
+digiRootData/digiRootData AcdHeader.h AcdId.h AcdTile.h CalHeader.h CalLog.h DigiEvent.h ESAPID.h L1T.h LogId.h StripId.h SubSystemHeader.h Tagger.h TkrHeader.h TkrLayer.h
+
+Modified Files:
+	AcdHeader.h AcdId.h AcdTile.h CalHeader.h CalLog.h DigiEvent.h 
+	ESAPID.h L1T.h LogId.h StripId.h SubSystemHeader.h Tagger.h 
+	TkrHeader.h TkrLayer.h 
+Log Message:
+update comments
+    *
+------------------------------------------------------------
 User: heather  Wed Oct 31 08:28:04 PST 2001
 digiRootData/doc Doxyfile
 
