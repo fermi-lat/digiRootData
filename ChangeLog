@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun  6 14:55:43 PDT 2002
+digiRootData/src/test
+
+Modified Files:
+	leaktest.cxx testDigiClasses.cxx 
+Log Message:
+add in tests for L1T and time stamp
+    *
+------------------------------------------------------------
 User: heather  Thu Jun  6 14:55:13 PDT 2002
 digiRootData/src
 
