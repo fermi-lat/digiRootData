@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Aug  2 18:02:46 PDT 2001
+digiRootData/digiRootData LiveTime.h EventCint.cxx
+
+Modified Files:
+	LiveTime.h EventCint.cxx 
+Log Message:
+fix LiveTime object
+    *
+------------------------------------------------------------
 User: heather  Thu Aug  2 10:51:51 PDT 2001
 digiRootData/src LiveTime.cxx StripId.cxx DigiEvent.cxx
 
