@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 26 15:22:41 PDT 2001
+digiRootData/digiRootData TkrDigi.h SubSystemHeader.h CalLogId.h CalDigi.h AcdId.h AcdDigi.h TkrHeader.h StripID.h EventLinkDef.h EventCint.h EventCint.cxx Event.h dorootcint.bat CalHeader.h AcdHeader.h TkrLayer.h TileID.h LogID.h CalHit.h ACDTile.h
+
+Modified Files:
+	TkrHeader.h StripID.h EventLinkDef.h EventCint.h EventCint.cxx 
+	Event.h dorootcint.bat CalHeader.h AcdHeader.h 
+Added Files:
+	TkrDigi.h SubSystemHeader.h CalLogId.h CalDigi.h AcdId.h 
+	AcdDigi.h 
+Removed Files:
+	TkrLayer.h TileID.h LogID.h CalHit.h ACDTile.h 
+Log Message:
+updates for the bfem
+    *
+------------------------------------------------------------
 User: heather  Wed Jun 20 15:08:24 PDT 2001
 digiRootData/src TkrLayer.cxx Event.cxx
 
