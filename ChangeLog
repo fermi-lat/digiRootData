@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 29 10:47:19 PDT 2002
+digiRootData/src
+
+Modified Files:
+	CalDigi.cxx CalXtalId.cxx DigiEvent.cxx 
+Added Files:
+	CalXtalReadout.cxx 
+Log Message:
+renaming CalLogReadout to CalXtalReadout - fix DigiEvent to use
+CalDigi rather than CalLog
+    *
+------------------------------------------------------------
 User: heather  Mon Apr 29 10:46:15 PDT 2002
 digiRootData/digiRootData
 
