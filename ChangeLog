@@ -1,0 +1,50 @@
+------------------------------------------------------------
+User: heather  Wed Apr 11 10:25:24 PDT 2001
+digiRootData - Imported sources
+
+Log Message:
+initial import of the digiRootData class, to replace the TBEvent class
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N digiRootData/.cvsignore
+N digiRootData/cmt/.cvsignore
+N digiRootData/cmt/cleanup.csh
+N digiRootData/cmt/cleanup.sh
+N digiRootData/cmt/Makefile
+N digiRootData/cmt/requirements
+N digiRootData/digiRootData/.cvsignore
+N digiRootData/digiRootData/ACDTile.h
+N digiRootData/digiRootData/CalHit.h
+N digiRootData/digiRootData/dorootcint.bat
+N digiRootData/digiRootData/ESAPID.h
+N digiRootData/digiRootData/Event.h
+N digiRootData/digiRootData/EventLinkDef.h
+N digiRootData/digiRootData/L1T.h
+N digiRootData/digiRootData/LogID.h
+N digiRootData/digiRootData/mainpage.h
+N digiRootData/digiRootData/StripID.h
+N digiRootData/digiRootData/stuff.h
+N digiRootData/digiRootData/Tagger.h
+N digiRootData/digiRootData/TileID.h
+N digiRootData/digiRootData/TkrLayer.h
+N digiRootData/doc/digiRootData.htm
+N digiRootData/fragments/event_dorootcint_header
+N digiRootData/src/.cvsignore
+N digiRootData/src/ACDTile.cxx
+N digiRootData/src/CalHit.cxx
+N digiRootData/src/ESAPID.cxx
+N digiRootData/src/Event.cxx
+N digiRootData/src/L1T.cxx
+N digiRootData/src/LogID.cxx
+N digiRootData/src/StripID.cxx
+N digiRootData/src/Tagger.cxx
+N digiRootData/src/TileID.cxx
+N digiRootData/src/TkrLayer.cxx
+
+No conflicts created by this import
+
+    *
