@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar 24 13:25:13 PST 2003
+digiRootData/src/test
+
+Modified Files:
+	leaktest.cxx 
+Log Message:
+comment out problematic gObjectTable->Print statement on windows
+    *
+------------------------------------------------------------
 User: heather  Mon Mar 24 13:24:08 PST 2003
 digiRootData/src
 
