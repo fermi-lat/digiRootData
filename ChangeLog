@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun  6 14:55:13 PDT 2002
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx L1T.cxx 
+Log Message:
+add in L1T and time stamp
+    *
+------------------------------------------------------------
 User: heather  Thu Jun  6 14:54:42 PDT 2002
 digiRootData/digiRootData
 
