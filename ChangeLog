@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Feb  2 10:19:15 PST 2005
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx L1T.cxx 
+Log Message:
+prepare for RootCnvSvc
+    *
+------------------------------------------------------------
 User: heather  Wed Feb  2 10:19:07 PST 2005
 digiRootData/digiRootData
 
