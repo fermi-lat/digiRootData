@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Mar 14 07:56:16 PST 2002
+digiRootData/digiRootData
+
+Removed Files:
+      Tag: testbeam
+	dorootcint.bat EventCint.cxx EventCint.h 
+Log Message:
+removing cint files and old dorootcint.bat
+    *
+------------------------------------------------------------
 User: heather  Thu Mar 14 07:55:51 PST 2002
 digiRootData/cmt
 
