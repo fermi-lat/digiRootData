@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon May 13 12:58:29 PDT 2002
+digiRootData/fragments
+
+Modified Files:
+	event_dorootcint_header 
+Log Message:
+fix up cint file generation on unix
+    *
+------------------------------------------------------------
 User: heather  Mon May 13 12:57:47 PDT 2002
 digiRootData/cmt
 
