@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed May 22 17:35:54 PDT 2002
+digiRootData/digiRootData
+
+Added Files:
+	GlastAxis.h TkrDigi.h TowerId.h 
+Removed Files:
+	StripId.h 
+Log Message:
+add in new Tkr digi classes
+    *
+------------------------------------------------------------
 User: heather  Wed May 22 15:00:03 PDT 2002
 digiRootData/src/test
 
