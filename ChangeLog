@@ -3,6 +3,14 @@ TAG activity
 User: heather  Mon Jul 23 09:33:00 2001
 Tag name: v1r2
 Tag operation: add
+Repository: /nfs/slac/g/glast/ground/cvs/digiRootData/cmt
+File(s) and revision(s): .cvsignore
+    *
+------------------------------------------------------------
+TAG activity
+User: heather  Mon Jul 23 09:33:00 2001
+Tag name: v1r2
+Tag operation: add
 Repository: /nfs/slac/g/glast/ground/cvs/digiRootData
 File(s) and revision(s): .cvsignore
     *
