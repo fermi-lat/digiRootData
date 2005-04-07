@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Thu Apr  7 06:43:58 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	EventSummaryData.h L1T.h 
+Log Message:
+if statements should  be boolean expressions to avoid vcc warnings
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r1, operation: add
 Package: digiRootData
