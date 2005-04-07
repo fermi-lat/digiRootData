@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: burnett  Thu Apr  7 06:46:46 PDT 2005
-digiRootData/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-tagging after patch
-    *
-------------------------------------------------------------
-User: burnett  Thu Apr  7 06:46:46 PDT 2005
-digiRootData/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-tagging after patch
-    *
-------------------------------------------------------------
-User: burnett  Thu Apr  7 06:43:58 PDT 2005
-digiRootData/digiRootData
-
-Modified Files:
-	EventSummaryData.h L1T.h 
-Log Message:
-if statements should  be boolean expressions to avoid vcc warnings
-    *
-------------------------------------------------------------
 TAG
 Tag name: v8r1, operation: add
 Package: digiRootData
