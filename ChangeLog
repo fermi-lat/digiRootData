@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Apr  8 14:09:56 PDT 2005
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+initialize EventSummaryData::eventSequence
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r1p1, operation: add
 Package: digiRootData
