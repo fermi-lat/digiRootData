@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Apr  8 14:10:17 PDT 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+initialize EventSummaryData::eventSequence
+    *
+------------------------------------------------------------
 User: heather  Fri Apr  8 14:09:56 PDT 2005
 digiRootData/cmt
 
