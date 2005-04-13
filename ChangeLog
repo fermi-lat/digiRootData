@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Apr 13 12:02:56 PDT 2005
+digiRootData/src/test
+
+Modified Files:
+	leaktest.cxx testDigiClasses.cxx 
+Log Message:
+use commonRootData namespace throught idents
+    *
+------------------------------------------------------------
+User: heather  Wed Apr 13 12:02:56 PDT 2005
 digiRootData/src
 
 Modified Files:
