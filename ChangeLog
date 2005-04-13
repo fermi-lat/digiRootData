@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr 13 12:02:49 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h CalDigi.h CalXtalReadout.h DigiEvent.h TkrDigi.h 
+Log Message:
+use commonRootData namespace throught idents
+    *
+------------------------------------------------------------
 User: heather  Wed Apr 13 12:02:34 PDT 2005
 digiRootData/cmt
 
