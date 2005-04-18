@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 23:19:07 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h CalDigi.h CalXtalReadout.h DigiEvent.h TkrDigi.h 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 23:18:33 PDT 2005
 digiRootData/doc
 
