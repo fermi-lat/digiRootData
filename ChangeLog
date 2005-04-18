@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 18 10:30:31 PDT 2005
+digiRootData/src
+
+Modified Files:
+	EventSummaryData.cxx Gem.cxx 
+Log Message:
+handle event size and gem.missed
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 23:19:18 PDT 2005
 digiRootData/src/test
 
