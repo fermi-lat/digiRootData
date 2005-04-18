@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 23:18:33 PDT 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 23:18:28 PDT 2005
 digiRootData/cmt
 
