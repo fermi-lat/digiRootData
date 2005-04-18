@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 23:19:18 PDT 2005
+digiRootData/src
+
+Modified Files:
+	AcdDigi.cxx CalDigi.cxx CalXtalReadout.cxx DigiEvent.cxx 
+	TkrDigi.cxx 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 23:19:07 PDT 2005
 digiRootData/digiRootData
 
