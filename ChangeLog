@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 23:18:28 PDT 2005
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r2, operation: add
 Package: digiRootData
