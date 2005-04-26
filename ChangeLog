@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Apr 25 17:55:18 PDT 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+ditch EventSummary's initEventSequence method
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r3, operation: add
 Package: digiRootData
