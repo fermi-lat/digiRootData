@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Thu Jun  9 23:28:20 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h LinkDef.h 
+Added Files:
+	Tem.h ErrorData.h 
+Log Message:
+handle error summary
+    *
+------------------------------------------------------------
 User: heather  Thu Jun  9 23:27:48 PDT 2005
 digiRootData/cmt
 
