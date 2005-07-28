@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chamont  Thu Jul 28 09:01:54 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	CalDigi.h 
+Log Message:
+so to remove irritating warning
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r4p1, operation: add
 Package: digiRootData
