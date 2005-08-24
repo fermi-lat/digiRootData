@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 24 13:44:44 PDT 2005
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h 
+Log Message:
+store header parity bit
+    *
+------------------------------------------------------------
 User: chamont  Thu Jul 28 09:01:54 PDT 2005
 digiRootData/digiRootData
 
