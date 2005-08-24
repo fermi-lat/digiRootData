@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Aug 24 13:45:32 PDT 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+store AEM header parity bits in AcdDigi
+    *
+------------------------------------------------------------
 User: heather  Wed Aug 24 13:44:56 PDT 2005
 digiRootData/src
 
