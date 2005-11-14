@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Nov 14 12:14:40 PST 2005
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+const correctness
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r7, operation: add
 Package: digiRootData
