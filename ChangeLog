@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Nov 14 12:15:14 PST 2005
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h CalDigi.h DigiEvent.h 
+Log Message:
+const correctness
+    *
+------------------------------------------------------------
 User: heather  Mon Nov 14 12:14:49 PST 2005
 digiRootData/cmt
 
