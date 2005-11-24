@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chamont  Thu Nov 24 07:59:05 PST 2005
+digiRootData/src/test
+
+Added Files:
+	.cvsignore 
+Log Message:
+ignore test root file
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r7p1, operation: add
 Package: digiRootData
