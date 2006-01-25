@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jan 24 23:02:49 PST 2006
+digiRootData/src
+
+Modified Files:
+	CalDigi.cxx DigiEvent.cxx 
+Log Message:
+remove usage of old CalDigiCol and calReadout arrays to allow use of const for methods that should be const
+    *
+------------------------------------------------------------
 User: heather  Tue Jan 24 23:02:42 PST 2006
 digiRootData/digiRootData
 
