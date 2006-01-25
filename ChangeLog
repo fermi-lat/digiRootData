@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jan 24 22:44:30 PST 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+remove old data members so that const can truly be used
+    *
+------------------------------------------------------------
 User: heather  Tue Jan 24 22:44:12 PST 2006
 digiRootData/cmt
 
