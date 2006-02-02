@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: echarles  Wed Feb  1 16:30:17 PST 2006
+digiRootData/src
+
+Added Files:
+	LsfConfiguration.cxx LsfDatagramInfo.cxx LsfGemScalars.cxx 
+	LsfMetaEvent.cxx LsfRunInfo.cxx LsfTime.cxx LsfTimeHack.cxx 
+	LsfTimeTone.cxx 
+Log Message:
+01-Feb-2006 EAC Added Lsf stuff for lsf data
+    *
+------------------------------------------------------------
 User: echarles  Wed Feb  1 16:30:15 PST 2006
 digiRootData/doc
 
