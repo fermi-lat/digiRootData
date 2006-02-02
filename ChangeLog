@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Thu Feb  2 14:29:39 PST 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+ lsf stuff to match dfi header files instead of doc
+    *
+------------------------------------------------------------
+User: echarles  Thu Feb  2 14:29:39 PST 2006
 digiRootData/digiRootData
 
 Modified Files:
