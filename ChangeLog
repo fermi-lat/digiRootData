@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Wed Feb  1 16:30:10 PST 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+01-Feb-2006 EAC Added Lsf stuff for lsf data
+    *
+------------------------------------------------------------
 TAG
 Tag name: v8r7p2, operation: add
 Package: digiRootData
