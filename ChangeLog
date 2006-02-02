@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 User: echarles  Thu Feb  2 14:29:39 PST 2006
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h LsfDatagramInfo.h LsfTime.h LsfTimeTone.h 
+Added Files:
+	LsfGemTime.h 
+Removed Files:
+	LsfTimeHack.h 
+Log Message:
+ lsf stuff to match dfi header files instead of doc
+    *
+------------------------------------------------------------
+User: echarles  Thu Feb  2 14:29:39 PST 2006
 digiRootData/cmt
 
 Modified Files:
