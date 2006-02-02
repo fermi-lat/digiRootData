@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Thu Feb  2 14:29:39 PST 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+ lsf stuff to match dfi header files instead of doc
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r0, operation: add
 Package: digiRootData
