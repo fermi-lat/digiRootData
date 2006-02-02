@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: echarles  Wed Feb  1 16:30:12 PST 2006
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h LinkDef.h 
+Added Files:
+	LsfConfiguration.h LsfDatagramInfo.h LsfGemScalars.h 
+	LsfMetaEvent.h LsfRunInfo.h LsfTime.h LsfTimeHack.h 
+	LsfTimeTone.h 
+Log Message:
+01-Feb-2006 EAC Added Lsf stuff for lsf data
+    *
+------------------------------------------------------------
 User: echarles  Wed Feb  1 16:30:10 PST 2006
 digiRootData/cmt
 
