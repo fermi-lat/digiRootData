@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Wed Feb  1 19:04:44 PST 2006
+digiRootData/src
+
+Modified Files:
+	LsfRunInfo.cxx 
+Log Message:
+EAC Added implementation of a missing function
+    *
+------------------------------------------------------------
+User: echarles  Wed Feb  1 19:04:44 PST 2006
 digiRootData/doc
 
 Modified Files:
