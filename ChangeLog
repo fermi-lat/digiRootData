@@ -1,5 +1,72 @@
 ------------------------------------------------------------
 TAG
+Tag name: v9r0p1, operation: add
+Package: digiRootData
+User: heather  Mon Feb  6 11:02:52 2006
+Files:
+  digiRootData/.cvsignore  1.1.1.1
+  digiRootData/ChangeLog  1.566
+  digiRootData/cmt/.cvsignore  1.2
+  digiRootData/cmt/requirements  1.106
+  digiRootData/cmt/Makefile  1.1.1.1
+  digiRootData/digiRootData/Tem.h  1.2
+  digiRootData/digiRootData/TkrDigi.h  1.12
+  digiRootData/digiRootData/LsfConfiguration.h  1.1
+  digiRootData/digiRootData/Gem.h  1.11
+  digiRootData/digiRootData/CalDigi.h  1.20
+  digiRootData/digiRootData/EventSummaryData.h  1.18
+  digiRootData/digiRootData/LsfTimeTone.h  1.2
+  digiRootData/digiRootData/LsfTime.h  1.2
+  digiRootData/digiRootData/LsfGemTime.h  1.1
+  digiRootData/digiRootData/TkrDiagnosticData.h  1.4
+  digiRootData/digiRootData/ErrorData.h  1.2
+  digiRootData/digiRootData/AcdDigi.h  1.16
+  digiRootData/digiRootData/CalXtalReadout.h  1.9
+  digiRootData/digiRootData/LinkDef.h  1.8
+  digiRootData/digiRootData/LsfDatagramInfo.h  1.2
+  digiRootData/digiRootData/LsfGemScalars.h  1.1
+  digiRootData/digiRootData/.cvsignore  1.2
+  digiRootData/digiRootData/CalDiagnosticData.h  1.4
+  digiRootData/digiRootData/GlastAxis.h  1.1
+  digiRootData/digiRootData/LsfRunInfo.h  1.1
+  digiRootData/digiRootData/LsfMetaEvent.h  1.1
+  digiRootData/digiRootData/DigiEvent.h  1.31
+  digiRootData/digiRootData/L1T.h  1.15
+  digiRootData/doc/digiRootData.htm  1.8
+  digiRootData/doc/release.notes  1.74
+  digiRootData/doc/Doxyfile  1.5
+  digiRootData/doc/images/digiTree.gif  1.2
+  digiRootData/doc/styles/site.css  1.1
+  digiRootData/src/LsfGemScalars.cxx  1.1
+  digiRootData/src/CalXtalReadout.cxx  1.7
+  digiRootData/src/LsfConfiguration.cxx  1.1
+  digiRootData/src/TkrDigi.cxx  1.10
+  digiRootData/src/Gem.cxx  1.3
+  digiRootData/src/mainpage.h  1.7
+  digiRootData/src/TkrDiagnosticData.cxx  1.3
+  digiRootData/src/LsfMetaEvent.cxx  1.1
+  digiRootData/src/Tem.cxx  1.1
+  digiRootData/src/L1T.cxx  1.11
+  digiRootData/src/LsfTime.cxx  1.1
+  digiRootData/src/CalDigi.cxx  1.19
+  digiRootData/src/DigiEvent.cxx  1.36
+  digiRootData/src/LsfGemTime.cxx  1.1
+  digiRootData/src/EventSummaryData.cxx  1.8
+  digiRootData/src/LsfDatagramInfo.cxx  1.1
+  digiRootData/src/CalDiagnosticData.cxx  1.3
+  digiRootData/src/LsfRunInfo.cxx  1.2
+  digiRootData/src/ErrorData.cxx  1.1
+  digiRootData/src/.cvsignore  1.1.1.1
+  digiRootData/src/LsfTimeTone.cxx  1.1
+  digiRootData/src/AcdDigi.cxx  1.11
+  digiRootData/src/test/.cvsignore  1.1
+  digiRootData/src/test/testDigiClasses.cxx  1.25
+  digiRootData/src/test/leaktest.cxx  1.13
+  digiRootData/src/test/.rootrc  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v9r0r1, operation: add
 Package: digiRootData
 User: echarles  Thu Feb  2 14:29:51 2006
