@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: echarles  Mon Feb 13 11:36:09 PST 2006
+digiRootData/src
+
+Added Files:
+	LsfGemScalers.cxx 
+Removed Files:
+	LsfGemScalars.cxx 
+Log Message:
+Added comments, changed Scalar to Scaler
+    *
+------------------------------------------------------------
 User: echarles  Mon Feb 13 11:36:08 PST 2006
 digiRootData/doc
 
