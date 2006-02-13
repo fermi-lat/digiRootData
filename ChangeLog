@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: echarles  Mon Feb 13 11:36:08 PST 2006
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h LsfConfiguration.h LsfDatagramInfo.h LsfGemTime.h 
+	LsfMetaEvent.h LsfRunInfo.h LsfTime.h LsfTimeTone.h 
+Added Files:
+	LsfGemScalers.h 
+Removed Files:
+	LsfGemScalars.h 
+Log Message:
+Added comments, changed Scalar to Scaler
+    *
+------------------------------------------------------------
 User: echarles  Mon Feb 13 11:36:07 PST 2006
 digiRootData/cmt
 
