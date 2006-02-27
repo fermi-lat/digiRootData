@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: heather  Mon Feb 27 10:54:34 PST 2006
+digiRootData/src
+
+Modified Files:
+	LsfTime.cxx 
+Added Files:
+	Configuration.cxx DatagramInfo.cxx GemScalers.cxx GemTime.cxx 
+	MetaEvent.cxx RunInfo.cxx TimeTone.cxx 
+Removed Files:
+	LsfConfiguration.cxx LsfDatagramInfo.cxx LsfGemScalers.cxx 
+	LsfGemTime.cxx LsfMetaEvent.cxx LsfRunInfo.cxx LsfTimeTone.cxx 
+Log Message:
+match class names to file names for LSF
+    *
+------------------------------------------------------------
 User: heather  Mon Feb 27 10:53:11 PST 2006
 digiRootData/digiRootData
 
