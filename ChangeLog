@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 User: heather  Thu Mar  2 09:42:08 PST 2006
+digiRootData/src
+
+Modified Files:
+	AcdDigi.cxx CalDiagnosticData.cxx CalDigi.cxx 
+	CalXtalReadout.cxx Configuration.cxx DatagramInfo.cxx 
+	DigiEvent.cxx ErrorData.cxx EventSummaryData.cxx Gem.cxx 
+	GemScalers.cxx GemTime.cxx L1T.cxx LsfTime.cxx MetaEvent.cxx 
+	RunInfo.cxx Tem.cxx TimeTone.cxx TkrDiagnosticData.cxx 
+	TkrDigi.cxx 
+Log Message:
+move to Riostream
+    *
+------------------------------------------------------------
+User: heather  Thu Mar  2 09:42:08 PST 2006
 digiRootData/doc
 
 Modified Files:
