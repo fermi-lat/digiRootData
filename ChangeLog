@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  2 09:42:07 PST 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+move to Riostream
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r1, operation: add
 Package: digiRootData
