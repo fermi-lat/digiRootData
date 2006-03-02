@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  2 09:42:08 PST 2006
+digiRootData/digiRootData
+
+Modified Files:
+	Configuration.h DatagramInfo.h GemScalers.h GemTime.h 
+	LsfTime.h MetaEvent.h RunInfo.h TimeTone.h 
+Log Message:
+move to Riostream
+    *
+------------------------------------------------------------
 User: heather  Thu Mar  2 09:42:07 PST 2006
 digiRootData/cmt
 
