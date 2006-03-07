@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Mar  6 23:24:44 PST 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+setup Print methods and comment out Configuration for now
+    *
+------------------------------------------------------------
+User: heather  Mon Mar  6 23:24:44 PST 2006
 digiRootData/digiRootData
 
 Modified Files:
