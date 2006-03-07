@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Mon Mar  6 23:24:44 PST 2006
+digiRootData/digiRootData
+
+Modified Files:
+	Configuration.h DatagramInfo.h GemScalers.h GemTime.h 
+	LsfTime.h MetaEvent.h RunInfo.h TimeTone.h 
+Log Message:
+setup Print methods and comment out Configuration for now
+    *
+------------------------------------------------------------
 User: heather  Mon Mar  6 23:24:43 PST 2006
 digiRootData/cmt
 
