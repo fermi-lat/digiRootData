@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Mar  6 23:24:43 PST 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+setup Print methods and comment out Configuration for now
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r1p1, operation: add
 Package: digiRootData
