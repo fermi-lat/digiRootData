@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Mon Mar  6 23:24:44 PST 2006
+digiRootData/src
+
+Modified Files:
+	Configuration.cxx DatagramInfo.cxx GemScalers.cxx GemTime.cxx 
+	LsfTime.cxx MetaEvent.cxx RunInfo.cxx TimeTone.cxx 
+Log Message:
+setup Print methods and comment out Configuration for now
+    *
+------------------------------------------------------------
+User: heather  Mon Mar  6 23:24:44 PST 2006
 digiRootData/doc
 
 Modified Files:
