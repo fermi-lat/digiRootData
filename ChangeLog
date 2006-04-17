@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Apr 17 10:38:07 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+	MetaEvent.h 
+Log Message:
+patch to increment MetaEvent version number to 2
+    *
+------------------------------------------------------------
+User: heather  Mon Apr 17 10:38:07 PDT 2006
 digiRootData/cmt
 
 Modified Files:
