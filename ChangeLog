@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Apr 17 10:38:07 PDT 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+patch to increment MetaEvent version number to 2
+    *
+------------------------------------------------------------
+User: heather  Mon Apr 17 10:38:07 PDT 2006
 digiRootData/digiRootData
 
 Modified Files:
