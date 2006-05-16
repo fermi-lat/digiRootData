@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue May 16 16:24:29 PDT 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+store error contribution flags and full TKR fifo errors
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r4p1, operation: add
 Package: digiRootData
