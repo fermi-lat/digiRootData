@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue May 16 16:24:35 PDT 2006
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx ErrorData.cxx 
+Log Message:
+store error contribution flags and full TKR fifo errors
+    *
+------------------------------------------------------------
 User: heather  Tue May 16 16:24:33 PDT 2006
 digiRootData/doc
 
