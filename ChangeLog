@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue May 16 16:24:33 PDT 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+store error contribution flags and full TKR fifo errors
+    *
+------------------------------------------------------------
 User: heather  Tue May 16 16:24:32 PDT 2006
 digiRootData/digiRootData
 
