@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Jun  5 10:06:45 PDT 2006
+digiRootData/src
+
+Modified Files:
+	Configuration.cxx DigiEvent.cxx FilterStatus.cxx 
+Log Message:
+compiles with new OBF
+    *
+------------------------------------------------------------
+User: heather  Mon Jun  5 10:06:45 PDT 2006
 digiRootData/doc
 
 Modified Files:
