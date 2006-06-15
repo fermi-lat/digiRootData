@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 15 12:21:49 PDT 2006
+digiRootData/src
+
+Modified Files:
+	FilterStatus.cxx 
+Log Message:
+patch to LogInfo name to avoid conflict with new OBF
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 15 12:21:48 PDT 2006
 digiRootData/doc
 
