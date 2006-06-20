@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 20 13:11:53 PDT 2006
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx 
+Added Files:
+	AdfDigi.cxx QdcHit.cxx TaggerHit.cxx 
+Log Message:
+initial check in of beamtest ancillary digi data
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 20 13:11:53 PDT 2006
 digiRootData/doc
 
 Modified Files:
