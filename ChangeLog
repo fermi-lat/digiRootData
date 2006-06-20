@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 20 13:11:52 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h LinkDef.h 
+Added Files:
+	AdfDigi.h QdcHit.h TaggerHit.h 
+Log Message:
+initial check in of beamtest ancillary digi data
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 20 13:11:52 PDT 2006
 digiRootData/cmt
 
 Modified Files:
