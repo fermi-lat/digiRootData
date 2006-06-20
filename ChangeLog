@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 20 13:11:52 PDT 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+initial check in of beamtest ancillary digi data
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r6p1, operation: add
 Package: digiRootData
