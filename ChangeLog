@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 20 23:58:23 PDT 2006
+digiRootData/src
+
+Modified Files:
+	AdfDigi.cxx DigiEvent.cxx QdcHit.cxx TaggerHit.cxx 
+Log Message:
+ready to tag
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 20 23:58:22 PDT 2006
 digiRootData/digiRootData
 
