@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 20 23:58:22 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+	AdfDigi.h DigiEvent.h LinkDef.h QdcHit.h TaggerHit.h 
+Log Message:
+ready to tag
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 20 13:11:53 PDT 2006
 digiRootData/src/test
 
