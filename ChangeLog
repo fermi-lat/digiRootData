@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul  6 13:37:23 PDT 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved TaggerHit and QdcHit to commonRootData
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r7, operation: add
 Package: digiRootData
