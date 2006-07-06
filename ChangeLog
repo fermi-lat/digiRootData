@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: heather  Thu Jul  6 13:37:23 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+	AdfDigi.h LinkDef.h 
+Removed Files:
+      Tag: v9r7
+	QdcHit.h TaggerHit.h 
+Log Message:
+moved TaggerHit and QdcHit to commonRootData
+    *
+------------------------------------------------------------
+User: heather  Thu Jul  6 13:37:23 PDT 2006
 digiRootData/cmt
 
 Modified Files:
