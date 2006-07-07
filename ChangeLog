@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Jul  7 09:24:40 PDT 2006
+digiRootData/digiRootData
+
+Removed Files:
+	QdcHit.h TaggerHit.h 
+Log Message:
+really remove the files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r8, operation: add
 Package: digiRootData
