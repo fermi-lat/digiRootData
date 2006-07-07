@@ -2,6 +2,15 @@
 TAG
 Tag name: v9r7, operation: add
 Package: digiRootData
+User: heather  Fri Jul  7 15:41:27 2006
+Files:
+  digiRootData/digiRootData/TaggerHit.h  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: v9r7, operation: add
+Package: digiRootData
 User: heather  Fri Jul  7 15:41:20 2006
 Files:
   digiRootData/digiRootData/QdcHit.h  1.4
