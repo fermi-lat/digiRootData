@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Jul  7 15:41:05 PDT 2006
+digiRootData/digiRootData
+
+Added Files:
+	QdcHit.h TaggerHit.h 
+Log Message:
+readd to retag
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r7, operation: add
 Package: digiRootData
