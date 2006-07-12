@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 12 14:43:10 PDT 2006
+digiRootData/src
+
+Modified Files:
+	AdfDigi.cxx 
+Removed Files:
+	QdcHit.cxx TaggerHit.cxx 
+Log Message:
+re-remove QdcHit and TaggerHit
+    *
+------------------------------------------------------------
 User: heather  Wed Jul 12 14:42:35 PDT 2006
 digiRootData/digiRootData
 
