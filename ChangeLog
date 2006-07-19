@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Jul 19 14:49:32 PDT 2006
+digiRootData/src
+
+Modified Files:
+	AdfDigi.cxx 
+Log Message:
+add in ScalerHit
+    *
+------------------------------------------------------------
+User: heather  Wed Jul 19 14:49:32 PDT 2006
 digiRootData/doc
 
 Modified Files:
