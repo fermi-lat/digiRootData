@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 22 09:27:48 PDT 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add method to query missingCalReadout bit
+    *
+------------------------------------------------------------
 User: heather  Tue Aug 22 09:27:46 PDT 2006
 digiRootData/digiRootData
 
