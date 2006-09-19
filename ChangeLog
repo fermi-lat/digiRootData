@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Sep 19 16:42:35 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+	AcdDigi.h 
+Log Message:
+added AcdDigi::isLowRange(AcdDigi::PmtId pmt) access function
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r13p1, operation: add
 Package: digiRootData
