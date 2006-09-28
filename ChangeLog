@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 28 09:16:30 PDT 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tag Eric's  patch for AcdDigi to allow sensible drawing of range
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 28 09:16:30 PDT 2006
 digiRootData/cmt
 
 Modified Files:
