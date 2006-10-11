@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Oct 11 15:27:32 PDT 2006
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+patch OBF handling to use curCnt rather than maxCnt for TFCprojectionCol
+    *
+------------------------------------------------------------
+User: heather  Wed Oct 11 15:27:32 PDT 2006
 digiRootData/digiRootData
 
 Modified Files:
