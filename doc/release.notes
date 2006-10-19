@@ -6,6 +6,8 @@ Coordinator:H.Kelly
 
 @verbatim
 
+v9r9gr1   13-Oct-2006 HMK Add LDF Warning flag - currently would be set only
+          for reading non-zero bytes beyond end of TEM
 v9r9      07-Jul-2006 HMK Really remove QdcHit and TaggerHit from this package
 v9r8      06-Jul-2006 HMK Moved TaggerHit and QdcHit to commonRootData
 v9r7      20-Jun-2006 HMK Ancillary Digi data from beamtest
