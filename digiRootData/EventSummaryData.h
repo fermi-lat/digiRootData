@@ -137,6 +137,8 @@ public:
          return (m_flags & enums::PHASEERROR); }
     Bool_t timeoutError() const {
          return (m_flags & enums::TIMEOUTERROR);}
+    Bool_t ldfWarning() const {
+         return (m_flags & enums::LDFWARNING); }
     
     /// Returns the length in bytes of the TEM contribution identified by 
     /// a value in [0,15]
