@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Wed Oct 25 13:43:51 PDT 2006
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: GlastReleasev9r13
+	LsfTime.h 
+Log Message:
+update LsfTime comment per Anders request
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r14, operation: add
 Package: digiRootData
