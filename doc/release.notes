@@ -6,6 +6,7 @@ Coordinator:H.Kelly
 
 @verbatim
 
+v9r9gr3   26-Oct-2006 HMK updated comment for DigiEvent/getLiveTime( )
 v9r9gr2   25-Oct-2006 HMK Updated comment in LsfTime.h
 v9r9gr1   13-Oct-2006 HMK Add LDF Warning flag - currently would be set only
           for reading non-zero bytes beyond end of TEM
