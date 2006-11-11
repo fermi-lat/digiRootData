@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sat Nov 11 08:05:32 PST 2006
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+try to fix up TfcProjectionCol
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r15, operation: add
 Package: digiRootData
