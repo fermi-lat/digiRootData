@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Sat Nov 11 08:05:32 PST 2006
+digiRootData/src
+
+Modified Files:
+	FilterStatus.cxx 
+Log Message:
+try to fix up TfcProjectionCol
+    *
+------------------------------------------------------------
+User: heather  Sat Nov 11 08:05:32 PST 2006
 digiRootData/digiRootData
 
 Modified Files:
