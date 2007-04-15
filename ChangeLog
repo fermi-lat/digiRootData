@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Sun Apr 15 16:39:28 PDT 2007
+digiRootData/doc
+
+Modified Files:
+      Tag: GlastReleasev9r13
+	release.notes 
+Log Message:
+add TimeTone::earlyEvent
+    *
+------------------------------------------------------------
+User: heather  Sun Apr 15 16:39:28 PDT 2007
 digiRootData/digiRootData
 
 Modified Files:
