@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Sep 13 07:54:31 PDT 2007
+digiRootData
+
+Modified Files:
+	ChangeLog 
+Log Message:
+Preliminary import of modifications needed to output the ObfFilterStatus class from the OnboardFilter to the PDS
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r18, operation: add
 Package: digiRootData
