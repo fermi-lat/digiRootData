@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: usher  Thu Sep 13 07:54:31 PDT 2007
+digiRootData/digiRootData
+
+Modified Files:
+	DigiEvent.h LinkDef.h 
+Added Files:
+	ObfFilterStatus.h 
+Log Message:
+Preliminary import of modifications needed to output the ObfFilterStatus class from the OnboardFilter to the PDS
+    *
+------------------------------------------------------------
+User: usher  Thu Sep 13 07:54:31 PDT 2007
 digiRootData/cmt
 
 Modified Files:
