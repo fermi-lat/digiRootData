@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Mon Sep 17 21:28:23 PDT 2007
+digiRootData/src
+
+Modified Files:
+	ObfFilterStatus.cxx 
+Log Message:
+Round two updates for ObfFilterStatus output, looks to be working now
+    *
+------------------------------------------------------------
+User: usher  Mon Sep 17 21:28:23 PDT 2007
 digiRootData/digiRootData
 
 Modified Files:
