@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Sep 18 20:41:01 PDT 2007
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+insert + sign to use current version of rootio
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 18 20:40:29 PDT 2007
 digiRootData/cmt
 
