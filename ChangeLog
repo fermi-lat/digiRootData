@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  8 20:34:04 PDT 2007
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+check for ptrs before returning nokeystype
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r19p4, operation: add
 Package: digiRootData
