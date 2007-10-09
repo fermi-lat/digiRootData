@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Oct  8 20:34:05 PDT 2007
+digiRootData/digiRootData
+
+Modified Files:
+	MetaEvent.h 
+Log Message:
+check for ptrs before returning nokeystype
+    *
+------------------------------------------------------------
 User: heather  Mon Oct  8 20:34:04 PDT 2007
 digiRootData/cmt
 
