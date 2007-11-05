@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Nov  4 18:52:10 PST 2007
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx 
+Log Message:
+remove use of b_ACDL
+    *
+------------------------------------------------------------
 User: heather  Sun Nov  4 18:52:09 PST 2007
 digiRootData/doc
 
