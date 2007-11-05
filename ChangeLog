@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Nov  4 18:52:09 PST 2007
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove use of b_ACDL
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r19p6, operation: add
 Package: digiRootData
