@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Dec  3 13:23:47 PST 2007
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+incrememnt DigiEvent class version
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r20, operation: add
 Package: digiRootData
