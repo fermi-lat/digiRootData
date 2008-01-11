@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Jan 11 13:26:05 PST 2008
+digiRootData/digiRootData
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Add status byte information to output
+    *
+------------------------------------------------------------
 TAG
 Tag name: v9r20p1, operation: add
 Package: digiRootData
