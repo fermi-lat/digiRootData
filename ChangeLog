@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Fri Jan 11 13:26:05 PST 2008
+digiRootData/src
+
+Modified Files:
+	ObfFilterStatus.cxx 
+Log Message:
+Add status byte information to output
+    *
+------------------------------------------------------------
+User: usher  Fri Jan 11 13:26:05 PST 2008
 digiRootData/digiRootData
 
 Modified Files:
