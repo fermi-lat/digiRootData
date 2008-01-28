@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chamont  Mon Jan 28 05:32:58 PST 2008
+digiRootData/digiRootData
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+suppress a very invasive warning
+    *
+------------------------------------------------------------
 User: chamont  Mon Jan 28 05:30:52 PST 2008
 digiRootData/digiRootData
 
