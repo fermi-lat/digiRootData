@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Feb  8 19:01:50 PST 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+increment Class versions for ObfFilter classes
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-09-30-00, operation: add
 Package: digiRootData
