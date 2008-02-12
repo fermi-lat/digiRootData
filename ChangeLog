@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Feb 11 20:33:58 PST 2008
+digiRootData/src
+
+Modified Files:
+	L1T.cxx 
+Log Message:
+patch to init all L1T memebers
+    *
+------------------------------------------------------------
+User: heather  Mon Feb 11 20:33:58 PST 2008
 digiRootData/doc
 
 Modified Files:
