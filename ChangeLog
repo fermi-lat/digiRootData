@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Sun Mar 30 19:57:44 PDT 2008
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+prepare to tag, revert back to version 4, as these are no data changes
+    *
+------------------------------------------------------------
+User: heather  Sun Mar 30 19:57:44 PDT 2008
 digiRootData/digiRootData
 
 Modified Files:
