@@ -2,6 +2,14 @@
 TAG
 Tag name: digiRootData-10-02-00, operation: add
 Package: digiRootData
+User: glastrm  Mon Apr  7 08:02:42 2008
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: digiRootData-10-02-00, operation: add
+Package: digiRootData
 User: glastrm  Sun Mar 30 20:00:27 2008
 Files:
   digiRootData/.cvsignore  1.1.1.1
