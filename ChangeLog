@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Apr 17 21:23:58 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	LsfKeys.h 
+Log Message:
+upgrade for new DFI, modifies LsfKeys
+    *
+------------------------------------------------------------
+User: heather  Thu Apr 17 21:23:58 PDT 2008
 digiRootData/cmt
 
 Modified Files:
