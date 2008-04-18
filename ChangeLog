@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Apr 17 21:23:58 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+upgrade for new DFI, modifies LsfKeys
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-10-03-00, operation: add
 Package: digiRootData
