@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: usher  Mon Apr 28 14:00:03 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: GlastReleasev14r2
+	DigiEvent.h LinkDef.h ObfFilterStatus.h 
+Added Files:
+      Tag: GlastReleasev14r2
+	ObfFilterTrack.h 
+Log Message:
+    *
+------------------------------------------------------------
+User: usher  Mon Apr 28 14:00:03 PDT 2008
 digiRootData/cmt
 
 Modified Files:
