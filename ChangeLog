@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May  8 19:33:41 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+merge ACD-10 updates into HEAD
+    *
+------------------------------------------------------------
 TAG
 Tag name: v10r3gr1, operation: add
 Package: digiRootData
