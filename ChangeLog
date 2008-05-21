@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed May 21 16:23:55 PDT 2008
+digiRootData/src
+
+Added Files:
+	ObfFilterTrack.cxx 
+Log Message:
+And, of course, the source file to go with the header file for ObfFilterTrack...
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-02-01, operation: add
 Package: digiRootData
