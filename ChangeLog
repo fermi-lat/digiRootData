@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri May 23 05:52:15 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+      Tag: GlastReleasev14r4
+	requirements 
+Log Message:
+actually add the new LpaHandler files
+    *
+------------------------------------------------------------
 TAG
 Tag name: v10r3gr2, operation: add
 Package: digiRootData
