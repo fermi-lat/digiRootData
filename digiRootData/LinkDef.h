@@ -69,6 +69,15 @@
 #pragma link C++ class ObfMipStatus+;
 #pragma link C++ class ObfDFCStatus+;
 
+#pragma link C++ class ILpaHandler+;
+#pragma link C++ class LpaHandler;
+#pragma link C++ class LpaGammaFilter+;
+#pragma link C++ class LpaHipFilter+;
+#pragma link C++ class LpaMipFilter+;
+#pragma link C++ class LpaDgnFilter+;
+#pragma link C++ class LpaPassthruFilter+;
+
+
 // Beamtest Ancillary Data 2006
 #pragma link C++ class AdfDigi+;
 
