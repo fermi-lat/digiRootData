@@ -17,6 +17,7 @@
 #include "Tem.h"
 #include "FilterStatus.h"
 #include "ObfFilterStatus.h"
+#include "LpaHandler.h"
 
 #include "MetaEvent.h"
 #include "Ccsds.h"
@@ -197,6 +198,9 @@ public:
 
     /// Copies in the MetaEvent
     void setMetaEvent(const MetaEvent& meta) { m_metaEvent = meta; }
+
+   const LpaHandler& getLpaHandler() const { return m_metaEvent.lpaHandler();}
+
 
     const Ccsds& getCcsds() const { return m_ccsds; }
 
