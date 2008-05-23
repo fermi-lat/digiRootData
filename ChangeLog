@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu May 22 18:57:01 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: GlastReleasev14r4
+	DigiEvent.h EventSummaryData.h LinkDef.h LsfKeys.h MetaEvent.h 
+Log Message:
+updates for LpaHandlers
+    *
+------------------------------------------------------------
+User: heather  Thu May 22 18:57:01 PDT 2008
 digiRootData/cmt
 
 Modified Files:
