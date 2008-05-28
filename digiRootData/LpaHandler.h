@@ -4,6 +4,12 @@
 #include "TObject.h"
 #include "TObjArray.h"
 #include "enums/Lsf.h"
+#include "enums/EfcGammaStatus.h"
+#include "enums/XfcHFCStatus.h"
+#include "enums/XfcMipStatus.h"
+#include "enums/XfcDFCStatus.h"
+
+
 
 /** @class ILpaHandler
 * @brief Interface/base class which describes access to the results of the various 
@@ -57,11 +63,136 @@ private:
 
 };
 
+
+class LpaGammaFilter : public ILpaHandler
+{
+public:
+    LpaGammaFilter() : m_status(0) {}
+    LpaGammaFilter(UInt_t status) : m_status(status) {}
+    virtual ~LpaGammaFilter() {}
+
+    void set(UInt_t status, UInt_t stage, UInt_t energyValid, Int_t energyInLeus) {
+        m_status = status;
+        m_stage = stage;
+        m_energyValid = energyValid;
+        m_energyInLeus = energyInLeus;
+    }
+
+    UInt_t getStatusWord() const { return m_status; };
+    UInt_t getStage() const { return m_stage; };
+    UInt_t getEnergyValid() const { return m_energyValid; }
+    Int_t getEnergyInLeus() const { return m_energyInLeus; }
+
+    Bool_t passed() const; 
+    UInt_t getAllVetoBits() const;
+
+    void Clear(Option_t *option ="");
+    void Print(Option_t *option="") const;
+
+private:
+    UInt_t m_status;        /// GAMMA filter status word
+    UInt_t m_stage;         /// bit mask indicating which stages of the filter have been processed
+    UInt_t m_energyValid;   /// Flag indicating the energy of the event was evaluated by the gamma filter
+    Int_t  m_energyInLeus;  /// energy in units of LEUS (1/4 Mev)
+
+    ClassDef(LpaGammaFilter,1) // Gamma Filter
+};
+
+class LpaHipFilter : public ILpaHandler
+{
+public:
+    LpaHipFilter() : ILpaHandler(), m_status(0) {}
+    LpaHipFilter(UInt_t status) : m_status(status) {}
+    virtual ~LpaHipFilter() {}
+
+    void setStatusWord(UInt_t status) { m_status = status; }
+    UInt_t  getStatusWord() const { return m_status; };
+    
+    Bool_t passed() const;
+    UInt_t getAllVetoBits() const;
+
+    void Clear(Option_t *option ="");
+    void Print(Option_t *option="") const;
+
+private:
+    UInt_t  m_status;
+
+    ClassDef(LpaHipFilter,1) // Highly Ionizing Particle Filter output
+};
+
+class LpaMipFilter : public ILpaHandler
+{
+public:
+    LpaMipFilter(): ILpaHandler(), m_status(0) {}
+    LpaMipFilter(UInt_t status) : m_status(status) {}
+    virtual ~LpaMipFilter() {}
+
+    void setStatusWord(UInt_t status) { m_status = status; }
+    UInt_t  getStatusWord() const { return m_status; };
+
+    Bool_t passed() const;
+    UInt_t getAllVetoBits() const;
+
+
+    void Clear(Option_t *option ="");
+    void Print(Option_t *option="") const;
+
+private:
+    UInt_t  m_status;
+
+    ClassDef(LpaMipFilter,1) // MIP filter output
+};
+
+class LpaDgnFilter : public ILpaHandler
+{
+public:
+    LpaDgnFilter() : ILpaHandler(), m_status(0) {}
+    LpaDgnFilter(UInt_t status) : m_status(status) {}
+    virtual ~LpaDgnFilter() {}
+ 
+    void setStatusWord(UInt_t status) { m_status = status; }
+    // If msb is set below then event is to be vetoed
+    UInt_t  getStatusWord() const { return m_status; };
+
+    Bool_t passed() const;
+    UInt_t getAllVetoBits() const;
+
+    void Clear(Option_t *option ="");
+    void Print(Option_t *option="") const;
+
+private:
+    UInt_t  m_status;
+
+    ClassDef(LpaDgnFilter,1) // Diagnostic Filter output
+};
+
+
+  class LpaPassthruFilter : public ILpaHandler {
+  public:
+    LpaPassthruFilter() : ILpaHandler() { };
+
+    LpaPassthruFilter(UInt_t status) : ILpaHandler() { m_status = status; }
+
+    void setStatusWord(UInt_t status) { m_status = status; }
+ 
+    UInt_t getStatusWord() const { return m_status; }
+
+    void Clear(Option_t *option ="");
+    void Print(Option_t *option="") const;
+
+  private:
+
+    UInt_t m_status;
+
+    ClassDef(LpaPassthruFilter,1) // Passthru output
+
+  };
+
+
 /** @class LpaFilterStatus
 * @brief A container for the output of the OnboardFilter. Will contain a list of 
 *        output objects for each of the filters run
 *  
-*  $Header$
 */
 
 class LpaHandler : public TObject  
@@ -84,129 +215,37 @@ public:
     // Add results method
     void addHandler(const enums::Lsf::HandlerId &id,TObject* status);
 
+    void addGamma(LpaGammaFilter* gam) { m_gamma = gam; }
+    void addHip(LpaHipFilter* hip) { m_hip = hip;};
+    void addMip(LpaMipFilter* mip) { m_mip = mip;};
+    void addDgn(LpaDgnFilter* dgn) { m_dgn = dgn; };
+    void addPassthru(LpaPassthruFilter* pass)
+      { m_pass = pass; };
+    void addAsc(ILpaHandler* asc) { m_asc = asc; }
+
     // Return results method
     const ILpaHandler* getHandler(const enums::Lsf::HandlerId &id) const;
+    const LpaGammaFilter* getGammaFilter() const { return m_gamma; }
+    const LpaHipFilter* getHipFilter() const { return m_hip; }
+    const LpaMipFilter* getMipFilter() const { return m_mip; }
+    const LpaDgnFilter* getDgnFilter() const { return m_dgn; }
+    const LpaPassthruFilter* getPassthruFilter() const { return m_pass; }
+    const ILpaHandler* getAsc() const { return m_asc; }
 
-    const TObjArray* getHandlerCol() const { return &m_lpaHandlerCol; }
+//    const TObjArray* getHandlerCol() const { return &m_lpaHandlerCol; }
 
 private:
     /// An array of points defining the trajectory
-    TObjArray m_lpaHandlerCol;
+  //  TObjArray m_lpaHandlerCol;
+   LpaGammaFilter *m_gamma;
+   LpaHipFilter *m_hip;
+   LpaMipFilter *m_mip;
+   LpaDgnFilter *m_dgn;
+   LpaPassthruFilter *m_pass;
+   ILpaHandler  *m_asc;
     
     ClassDef(LpaHandler,1) 
 };
-
-class LpaGammaFilter : public ILpaHandler
-{
-public:
-    LpaGammaFilter() : m_status(0) {}
-    LpaGammaFilter(UInt_t status) : m_status(status) {}
-    virtual ~LpaGammaFilter() {}
-
-    void set(UInt_t status, UInt_t stage, UInt_t energyValid, Int_t energyInLeus) {
-        m_status = status;
-        m_stage = stage;
-        m_energyValid = energyValid;
-        m_energyInLeus = energyInLeus;
-    }
-
-    UInt_t getStatus() const { return m_status; };
-    UInt_t getStage() const { return m_stage; };
-    UInt_t getEnergyValid() const { return m_energyValid; }
-    Int_t getEnergyInLeus() const { return m_energyInLeus; }
-
-    void Clear(Option_t *option ="");
-    void Print(Option_t *option="") const;
-
-private:
-    UInt_t m_status;        /// GAMMA filter status word
-    UInt_t m_stage;         /// bit mask indicating which stages of the filter have been processed
-    UInt_t m_energyValid;   /// Flag indicating the energy of the event was evaluated by the gamma filter
-    Int_t  m_energyInLeus;  /// energy in units of LEUS (1/4 Mev)
-
-    ClassDef(LpaGammaFilter,1) // Gamma Filter
-};
-
-class LpaHipFilter : public ILpaHandler
-{
-public:
-    LpaHipFilter() : ILpaHandler(), m_status(0) {}
-    LpaHipFilter(UInt_t status) : m_status(status) {}
-    virtual ~LpaHipFilter() {}
-
-    void setStatus(UInt_t status) { m_status = status; }
-    UInt_t  getStatus() const { return m_status; };
-    
-    void Clear(Option_t *option ="");
-    void Print(Option_t *option="") const;
-
-private:
-    UInt_t  m_status;
-
-    ClassDef(LpaHipFilter,1) // Highly Ionizing Particle Filter output
-};
-
-class LpaMipFilter : public ILpaHandler
-{
-public:
-    LpaMipFilter(): ILpaHandler(), m_status(0) {}
-    LpaMipFilter(UInt_t status) : m_status(status) {}
-    virtual ~LpaMipFilter() {}
-
-    void setStatus(UInt_t status) { m_status = status; }
-    UInt_t  getStatus() const { return m_status; };
-
-    void Clear(Option_t *option ="");
-    void Print(Option_t *option="") const;
-
-private:
-    UInt_t  m_status;
-
-    ClassDef(LpaMipFilter,1) // MIP filter output
-};
-
-class LpaDgnFilter : public ILpaHandler
-{
-public:
-    LpaDgnFilter() : ILpaHandler(), m_status(0) {}
-    LpaDgnFilter(UInt_t status) : m_status(status) {}
-    virtual ~LpaDgnFilter() {}
- 
-    void setStatus(UInt_t status) { m_status = status; }
-    // If msb is set below then event is to be vetoed
-    UInt_t  getStatus() const { return m_status; };
-
-    void Clear(Option_t *option ="");
-    void Print(Option_t *option="") const;
-
-private:
-    UInt_t  m_status;
-
-    ClassDef(LpaDgnFilter,1) // Diagnostic Filter output
-};
-
-
-  class LpaPassthruFilter : public ILpaHandler {
-  public:
-    LpaPassthruFilter() : ILpaHandler() { };
-
-    LpaPassthruFilter(UInt_t status) : ILpaHandler() { m_status = status; }
-
-    void setStatus(UInt_t status) { m_status = status; }
- 
-    UInt_t getStatus() const { return m_status; }
-
-    void Clear(Option_t *option ="");
-    void Print(Option_t *option="") const;
-
-  private:
-
-    UInt_t m_status;
-
-    ClassDef(LpaPassthruFilter,1) // Passthru output
-
-  };
-
 
 
 #endif

@@ -192,6 +192,11 @@ public:
 
   /// Returns the complete set of LPA Handlers for this event, include OBF filters
   inline const LpaHandler& lpaHandler() const { return m_lpaHandler; }
+  inline void addGamma(LpaGammaFilter* gamma) { m_lpaHandler.addGamma(gamma); }
+  inline void addHip(LpaHipFilter* hip) { m_lpaHandler.addHip(hip); }
+  inline void addMip(LpaMipFilter* mip) { m_lpaHandler.addMip(mip); }
+  inline void addDgn(LpaDgnFilter* dgn) { m_lpaHandler.addDgn(dgn); }
+  inline void addPassthru(LpaPassthruFilter* pass) { m_lpaHandler.addPassthru(pass); }
 
 
   /// set everything at once except Configuration
