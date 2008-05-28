@@ -201,6 +201,21 @@ public:
 
    const LpaHandler& getLpaHandler() const { return m_metaEvent.lpaHandler();}
 
+   const LpaGammaFilter* getGammaFilter() {
+       return ( (LpaGammaFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::GAMMA)));
+   }
+
+   const LpaHipFilter* getHipFilter() {
+       return ((LpaHipFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::HIP)));
+   }
+
+   const LpaMipFilter* getMipFilter() {
+       return ((LpaMipFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::MIP)));
+   }
+
+   const LpaDgnFilter* getDgnFilter() {
+       return ((LpaDgnFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::DGN)));
+   }
 
     const Ccsds& getCcsds() const { return m_ccsds; }
 

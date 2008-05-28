@@ -9,6 +9,7 @@
 #include "digiRootData/LpaHandler.h"
 #include "Riostream.h"
 
+
 ClassImp(ILpaHandler)
 
 
@@ -48,7 +49,8 @@ void ILpaHandler::initialize(UInt_t masterKey, UInt_t cfgKey, UInt_t cfgId, enum
 
 ClassImp(LpaHandler)
 
-LpaHandler::LpaHandler() 
+LpaHandler::LpaHandler() : m_gamma(0), m_hip(0), m_mip(0), m_dgn(0), m_pass(0)
+   , m_asc(0)
 {
     initialize();
 }
@@ -60,32 +62,46 @@ LpaHandler::~LpaHandler()
 
 void LpaHandler::initialize() 
 {
-    m_lpaHandlerCol.Clear();
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::PASS_THRU);
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::GAMMA);
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::ASC);
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::MIP);
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::HIP);
-    m_lpaHandlerCol.AddAt(0,enums::Lsf::DGN);
-
     return;
 }
 
 
 LpaHandler& LpaHandler::operator =(const LpaHandler& rhs)
 {
-    TObjArrayIter myIt(&rhs.m_lpaHandlerCol);
-    TObject *curHandler;
-    while ((curHandler = (myIt.Next()))) {
-        m_lpaHandlerCol.Add(curHandler);
-    }
-    m_lpaHandlerCol.SetOwner(kTRUE);
+    if (rhs.m_gamma) m_gamma = new LpaGammaFilter(*(rhs.getGammaFilter()));
+    if (rhs.m_hip) m_hip = new LpaHipFilter(*(rhs.getHipFilter()));
+    if (rhs.m_mip) m_mip = new LpaMipFilter(*(rhs.getMipFilter()));
+    if (rhs.m_dgn) m_dgn = new LpaDgnFilter(*(rhs.getDgnFilter()));
+    if (rhs.m_pass) m_pass = new LpaPassthruFilter(*(rhs.getPassthruFilter()));
     return *this;
 }
 
 void LpaHandler::Clear(Option_t *) 
 {
-    initialize();
+    if(m_gamma) { 
+       delete m_gamma;
+       m_gamma = 0;
+    }
+    if (m_hip) {
+        delete m_hip;
+        m_hip = 0;
+    }
+   if (m_mip) {
+        delete m_mip;
+        m_mip =0;
+   }
+   if (m_dgn) {
+       delete m_dgn;
+       m_dgn = 0;
+   }
+   if (m_pass) {
+       delete m_pass;
+       m_pass = 0;
+   }
+   if (m_asc) {
+       delete m_asc;
+       m_asc = 0;
+   }
     return;
 }
 
@@ -107,28 +123,30 @@ Bool_t LpaHandler::CompareInRange( const LpaHandler & ref, const std::string & n
 
 void LpaHandler::Print(Option_t* option) const 
 {
-    TIter it(&m_lpaHandlerCol);
-    ILpaHandler *curHandler;
-    while ( (curHandler = (ILpaHandler*)(it.Next()))) {
-        curHandler->Print(option);
-    }
 }
 
 // Add results method
 void LpaHandler::addHandler(const enums::Lsf::HandlerId &id, TObject* status)
 {
-    m_lpaHandlerCol.AddAt(status, id);
+    //m_lpaHandlerCol.AddAtAndExpand(status, id);
+    if (id == enums::Lsf::GAMMA) m_gamma = dynamic_cast<LpaGammaFilter*>(status);
+    else if (id == enums::Lsf::HIP) m_hip = dynamic_cast<LpaHipFilter*>(status);
+    else if (id == enums::Lsf::MIP) m_mip = dynamic_cast<LpaMipFilter*>(status);
+    else if (id == enums::Lsf::PASS_THRU) m_pass = dynamic_cast<LpaPassthruFilter*>(status);
+    else if (id == enums::Lsf::DGN) m_dgn = dynamic_cast<LpaDgnFilter*>(status);
     return;
 }
 
 // Return results method
 const ILpaHandler* LpaHandler::getHandler(const enums::Lsf::HandlerId &id) const
 {
-    TObject *obj = m_lpaHandlerCol[id];
-    if (obj)
-        return ((ILpaHandler*)obj);
-    else 
-        return 0;
+    if (id == enums::Lsf::GAMMA) return m_gamma;
+    else if (id == enums::Lsf::HIP) return m_hip;
+    else if (id == enums::Lsf::MIP) return m_mip;
+    else if (id == enums::Lsf::PASS_THRU) return m_pass;
+    else if (id == enums::Lsf::DGN) return m_dgn;
+    else if (id == enums::Lsf::MaxHandlerIds) return 0;
+    else return 0;
 }
 
 // Implement the LpaGammaFilter class here
@@ -141,6 +159,9 @@ void LpaGammaFilter::Clear(Option_t *option)
     m_status = 0;
     return;
 }
+
+Bool_t LpaGammaFilter::passed() const { return (m_status & enums::GFC_STATUS_M_VETOED); }
+UInt_t LpaGammaFilter::getAllVetoBits() const { return (m_status & enums::GFC_STATUS_M_VETOES); }
 
 // root print...
 void LpaGammaFilter::Print(Option_t* option) const 
@@ -162,6 +183,10 @@ void LpaHipFilter::Clear(Option_t *option)
     return;
 }
 
+Bool_t LpaHipFilter::passed() const { return (m_status & enums::HFC_STATUS_M_VETOED); }
+UInt_t LpaHipFilter::getAllVetoBits() const { return (m_status & enums::HFC_STATUS_M_VETO_DEF); }
+
+
 // root print...
 void LpaHipFilter::Print(Option_t* option) const 
 {
@@ -181,6 +206,9 @@ void LpaMipFilter::Clear(Option_t *option)
     m_status = 0;
     return;
 }
+
+Bool_t LpaMipFilter::passed() const {return (m_status & enums::MFC_STATUS_M_VETOED);}
+UInt_t LpaMipFilter::getAllVetoBits() const {return (m_status & enums::MFC_STATUS_M_VETO_DEF);}
 
 // root print...
 void LpaMipFilter::Print(Option_t* option) const 
@@ -202,6 +230,10 @@ void LpaDgnFilter::Clear(Option_t *option)
     m_status = 0;
     return;
 }
+
+Bool_t LpaDgnFilter::passed() const {return (m_status & enums::DFC_STATUS_M_VETOED);}
+UInt_t LpaDgnFilter::getAllVetoBits() const {return (m_status & enums::DFC_STATUS_M_VETO_DEF);}
+
 
 // root print...
 void LpaDgnFilter::Print(Option_t* option) const 
