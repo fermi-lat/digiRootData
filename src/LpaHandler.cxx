@@ -160,7 +160,6 @@ void LpaGammaFilter::Clear(Option_t *option)
     return;
 }
 
-Bool_t LpaGammaFilter::passed() const { return (m_status & enums::GFC_STATUS_M_VETOED); }
 UInt_t LpaGammaFilter::getAllVetoBits() const { return (m_status & enums::GFC_STATUS_M_VETOES); }
 
 // root print...
@@ -183,7 +182,6 @@ void LpaHipFilter::Clear(Option_t *option)
     return;
 }
 
-Bool_t LpaHipFilter::passed() const { return (m_status & enums::HFC_STATUS_M_VETOED); }
 UInt_t LpaHipFilter::getAllVetoBits() const { return (m_status & enums::HFC_STATUS_M_VETO_DEF); }
 
 
@@ -207,7 +205,6 @@ void LpaMipFilter::Clear(Option_t *option)
     return;
 }
 
-Bool_t LpaMipFilter::passed() const {return (m_status & enums::MFC_STATUS_M_VETOED);}
 UInt_t LpaMipFilter::getAllVetoBits() const {return (m_status & enums::MFC_STATUS_M_VETO_DEF);}
 
 // root print...
@@ -231,7 +228,6 @@ void LpaDgnFilter::Clear(Option_t *option)
     return;
 }
 
-Bool_t LpaDgnFilter::passed() const {return (m_status & enums::DFC_STATUS_M_VETOED);}
 UInt_t LpaDgnFilter::getAllVetoBits() const {return (m_status & enums::DFC_STATUS_M_VETO_DEF);}
 
 
