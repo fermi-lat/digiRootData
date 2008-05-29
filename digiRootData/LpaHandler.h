@@ -37,7 +37,32 @@ public:
 
 
     /// Lpa functions
-    virtual UInt_t  getStatus() const { return 0; };
+    virtual UInt_t  getStatusWord() const { return 0; };
+
+    virtual Bool_t passed() const { 
+        if (m_state == enums::Lsf::PASSED) return true;
+        else return false;
+    }
+
+    virtual Bool_t vetoed() const {
+        if(m_state == enums::Lsf::VETOED) return true;
+        else return false;
+    }
+
+    virtual Bool_t leaked() const {
+        if (m_state == enums::Lsf::LEAKED) return true;
+        else return false;
+    }
+
+    virtual Bool_t suppressed() const {
+        if (m_state == enums::Lsf::SUPPRESSED) return true;
+        else return false;
+    }
+
+    virtual Bool_t ignored() const {
+        if (m_state == enums::Lsf::IGNORED) return true;
+        return false;
+   }
 
     UInt_t getMasterKey() const { return m_masterKey; };
     UInt_t getCfgKey() const { return m_cfgKey; };
@@ -78,12 +103,11 @@ public:
         m_energyInLeus = energyInLeus;
     }
 
-    UInt_t getStatusWord() const { return m_status; };
+    virtual UInt_t getStatusWord() const { return m_status; };
     UInt_t getStage() const { return m_stage; };
     UInt_t getEnergyValid() const { return m_energyValid; }
     Int_t getEnergyInLeus() const { return m_energyInLeus; }
 
-    Bool_t passed() const; 
     UInt_t getAllVetoBits() const;
 
     void Clear(Option_t *option ="");
@@ -106,9 +130,8 @@ public:
     virtual ~LpaHipFilter() {}
 
     void setStatusWord(UInt_t status) { m_status = status; }
-    UInt_t  getStatusWord() const { return m_status; };
+    virtual UInt_t  getStatusWord() const { return m_status; };
     
-    Bool_t passed() const;
     UInt_t getAllVetoBits() const;
 
     void Clear(Option_t *option ="");
@@ -128,9 +151,8 @@ public:
     virtual ~LpaMipFilter() {}
 
     void setStatusWord(UInt_t status) { m_status = status; }
-    UInt_t  getStatusWord() const { return m_status; };
+    virtual UInt_t  getStatusWord() const { return m_status; };
 
-    Bool_t passed() const;
     UInt_t getAllVetoBits() const;
 
 
@@ -152,9 +174,8 @@ public:
  
     void setStatusWord(UInt_t status) { m_status = status; }
     // If msb is set below then event is to be vetoed
-    UInt_t  getStatusWord() const { return m_status; };
+    virtual UInt_t  getStatusWord() const { return m_status; };
 
-    Bool_t passed() const;
     UInt_t getAllVetoBits() const;
 
     void Clear(Option_t *option ="");
@@ -175,7 +196,7 @@ private:
 
     void setStatusWord(UInt_t status) { m_status = status; }
  
-    UInt_t getStatusWord() const { return m_status; }
+    virtual UInt_t getStatusWord() const { return m_status; }
 
     void Clear(Option_t *option ="");
     void Print(Option_t *option="") const;
