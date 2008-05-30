@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri May 30 10:27:53 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+      Tag: GlastReleasev14r4
+	requirements 
+Log Message:
+add m_prescaleFactor
+    *
+------------------------------------------------------------
 TAG
 Tag name: v10r3gr6, operation: add
 Package: digiRootData
