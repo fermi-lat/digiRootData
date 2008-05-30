@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu May 29 22:39:37 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+      Tag: GlastReleasev14r4
+	DigiEvent.h 
+Log Message:
+add getPassthruFilter method to DigiEvent
+    *
+------------------------------------------------------------
+User: heather  Thu May 29 22:39:37 PDT 2008
 digiRootData/cmt
 
 Modified Files:
