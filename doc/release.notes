@@ -4,6 +4,7 @@ Coordinator:H.Kelly
 
 @verbatim
 
+v10r3gr7  30-May-2008 HMK doc
 v10r3gr6  29-May-2008 HMK add getPassthruFilter method to DigiEvent
 v10r3gr5  29-May-2008 HMK and more patches to check passed bit correctly
 v10r3gr4  28-May-2008 HMK patches to get LpaHandlers working
