@@ -13,9 +13,10 @@
 ClassImp(ILpaHandler)
 
 
-void ILpaHandler::initialize(UInt_t masterKey, UInt_t cfgKey, UInt_t cfgId, enums::Lsf::RsdState state,
-        enums::Lsf::LeakedPrescaler prescaler, UInt_t version, enums::Lsf::HandlerId id,
-        Bool_t has) {
+void ILpaHandler::initialize(UInt_t masterKey, UInt_t cfgKey, UInt_t cfgId, 
+        enums::Lsf::RsdState state,
+        enums::Lsf::LeakedPrescaler prescaler, UInt_t version, 
+        enums::Lsf::HandlerId id, Bool_t has) {
             m_masterKey = masterKey;
             m_cfgKey = cfgKey;
             m_cfgId = cfgId;
@@ -36,6 +37,7 @@ void ILpaHandler::initialize(UInt_t masterKey, UInt_t cfgKey, UInt_t cfgId, enum
      m_version = 0;
      m_id = enums::Lsf::MaxHandlerIds;
      m_has = kFALSE;
+     m_prescaleFactor = 0;
  }
 
  void ILpaHandler::Print(Option_t* option) const 

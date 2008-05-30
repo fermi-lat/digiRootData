@@ -1,5 +1,5 @@
-#ifndef LpaFilterStatus_H
-#define LpaFilterStatus_H
+#ifndef LpaHandler_H
+#define LpaHandler_H
 
 #include "TObject.h"
 #include "TObjArray.h"
@@ -21,9 +21,13 @@
 class ILpaHandler : public TObject
 {
 public:
-    ILpaHandler() : TObject(), m_type(enums::Lsf::Unknown), m_masterKey(0xFFFFFFFF), m_cfgKey(0xFFFFFFFF), 
-          m_cfgId(0xFFFFFFFF), m_state(enums::Lsf::INVALID), m_prescaler(enums::Lsf::UNSUPPORTED), m_version(0), 
-          m_id(enums::Lsf::MaxHandlerIds), m_has(kFALSE) {} ;
+    ILpaHandler() : TObject(), 
+                 m_masterKey(0xFFFFFFFF), m_cfgKey(0xFFFFFFFF), 
+                 m_cfgId(0xFFFFFFFF), m_version(0), m_prescaleFactor(0), 
+                 m_state(enums::Lsf::INVALID), 
+                 m_prescaler(enums::Lsf::UNSUPPORTED), 
+                 m_type(enums::Lsf::Unknown),
+                 m_id(enums::Lsf::MaxHandlerIds), m_has(kFALSE) {} ;
 
     virtual ~ILpaHandler() {}
 
@@ -74,13 +78,14 @@ public:
     enums::Lsf::HandlerId getId() const { return m_id; }
 
 private:
-    enums::Lsf::HandlerType     m_type;
     UInt_t                      m_masterKey;  /// FMX key of master CDM for handler (fixed for a run)
     UInt_t                      m_cfgKey;     /// FMX key of current CDM for handler (may vary by mode)
     UInt_t                      m_cfgId;      /// unique identifier of handler config (may vary by mode)
+    UInt_t                      m_version;    /// Encoding version of handler-specific RSD
+    UInt_t                      m_prescaleFactor;
     enums::Lsf::RsdState        m_state;      /// overall filter result for the event
     enums::Lsf::LeakedPrescaler m_prescaler;  /// Unsupported in RSD V0, otherwise indicates how event was leaked
-    UInt_t                      m_version;    /// Encoding version of handler-specific RSD
+    enums::Lsf::HandlerType     m_type;
     enums::Lsf::HandlerId       m_id;         /// Handler identifier
     Bool_t                      m_has;        /// Indicates whether handler generated summary data
 
