@@ -216,6 +216,9 @@ public:
    const LpaDgnFilter* getDgnFilter() {
        return ((LpaDgnFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::DGN)));
    }
+   const LpaPassthruFilter* getPassthruFilter() {
+       return ((LpaPassthruFilter*)(m_metaEvent.lpaHandler().getHandler(enums::Lsf::PASS_THRU)));
+   }
 
     const Ccsds& getCcsds() const { return m_ccsds; }
 
