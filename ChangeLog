@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jun  9 11:38:18 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix up win build for getopt
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-03-01, operation: add
 Package: digiRootData
