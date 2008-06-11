@@ -1,20 +1,4 @@
 ------------------------------------------------------------
-User: usher  Wed Jun 11 12:08:13 PDT 2008
-digiRootData/src
-
-Modified Files:
-	ObfFilterStatus.cxx 
-Log Message:
-    *
-------------------------------------------------------------
-User: usher  Wed Jun 11 12:08:13 PDT 2008
-digiRootData/digiRootData
-
-Modified Files:
-	LinkDef.h ObfFilterStatus.h 
-Log Message:
-    *
-------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-03-02, operation: add
 Package: digiRootData
