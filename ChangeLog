@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 12 20:56:12 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add mootKey and prescaleFactor to ROOT
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-04-00, operation: add
 Package: digiRootData
