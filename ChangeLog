@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jun 12 20:56:13 PDT 2008
+digiRootData/src
+
+Modified Files:
+	LpaHandler.cxx 
+Log Message:
+add mootKey and prescaleFactor to ROOT
+    *
+------------------------------------------------------------
+User: heather  Thu Jun 12 20:56:13 PDT 2008
 digiRootData/doc
 
 Modified Files:
