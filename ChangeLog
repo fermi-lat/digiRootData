@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jun 12 20:56:13 PDT 2008
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+add mootKey and prescaleFactor to ROOT
+    *
+------------------------------------------------------------
 User: heather  Thu Jun 12 20:56:12 PDT 2008
 digiRootData/digiRootData
 
