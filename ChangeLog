@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jun 12 20:56:12 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	LpaHandler.h MetaEvent.h 
+Log Message:
+add mootKey and prescaleFactor to ROOT
+    *
+------------------------------------------------------------
+User: heather  Thu Jun 12 20:56:12 PDT 2008
 digiRootData/cmt
 
 Modified Files:
