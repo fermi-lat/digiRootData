@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Mon Jun 16 15:59:03 PDT 2008
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+tag v11r6p1: Added LpaHandler::prescaleIndex() to re-order prescalers to help users
+    *
+------------------------------------------------------------
+User: echarles  Mon Jun 16 15:59:03 PDT 2008
 digiRootData/digiRootData
 
 Modified Files:
