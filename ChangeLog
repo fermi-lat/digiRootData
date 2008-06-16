@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: echarles  Mon Jun 16 15:59:02 PDT 2008
-digiRootData/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-tag v11r6p1: Added LpaHandler::prescaleIndex() to re-order prescalers to help users
-    *
-------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-06-00, operation: add
 Package: digiRootData
