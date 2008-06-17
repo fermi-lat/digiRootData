@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 17 11:00:27 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	ObfFilterStatus.h ObfFilterTrack.h 
+Log Message:
+remove virtual
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 17 11:00:27 PDT 2008
 digiRootData/cmt
 
 Modified Files:
