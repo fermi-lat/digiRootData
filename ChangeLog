@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 17 11:00:27 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+remove virtual
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-06-01, operation: add
 Package: digiRootData
