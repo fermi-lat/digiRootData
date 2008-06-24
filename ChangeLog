@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 24 11:54:24 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h ObfFilterStatus.h 
+Log Message:
+make ObfFilterStatus backward compatible
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 24 11:54:23 PDT 2008
 digiRootData/cmt
 
