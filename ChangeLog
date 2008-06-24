@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 24 11:54:23 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+make ObfFilterStatus backward compatible
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-06-04, operation: add
 Package: digiRootData
