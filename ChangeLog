@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 24 11:54:24 PDT 2008
+digiRootData/src
+
+Modified Files:
+	ObfFilterStatus.cxx 
+Log Message:
+make ObfFilterStatus backward compatible
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 24 11:54:24 PDT 2008
 digiRootData/doc
 
 Modified Files:
