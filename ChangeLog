@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Tue Jul 22 16:02:51 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	ObfFilterStatus.h 
+Log Message:
+Add function "getState" to return an enumerated version of the status
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-07-00, operation: add
 Package: digiRootData
