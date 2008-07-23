@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 22 21:18:26 PDT 2008
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+no need to increment class versions for new method
+    *
+------------------------------------------------------------
 User: heather  Tue Jul 22 21:18:25 PDT 2008
 digiRootData/digiRootData
 
