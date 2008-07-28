@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Sun Jul 27 22:13:28 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h LpaHandler.h MetaEvent.h 
+Log Message:
+updates for new eventFile for FSW B1-1-0
+    *
+------------------------------------------------------------
+User: heather  Sun Jul 27 22:13:28 PDT 2008
 digiRootData/cmt
 
 Modified Files:
