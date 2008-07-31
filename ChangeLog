@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 30 20:51:24 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+handle compressionLevel
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-09-00, operation: add
 Package: digiRootData
