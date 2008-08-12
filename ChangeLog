@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 12 10:40:21 PDT 2008
+digiRootData/src
+
+Modified Files:
+	DigiEvent.cxx DigiObjectManager.cxx DigiObjectManager.h 
+Log Message:
+provide ALL option for DigiObjectManager::Delete
+    *
+------------------------------------------------------------
 User: heather  Tue Aug 12 10:40:19 PDT 2008
 digiRootData/doc
 
