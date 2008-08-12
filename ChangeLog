@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 12 10:40:16 PDT 2008
+digiRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+provide ALL option for DigiObjectManager::Delete
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-10-00, operation: add
 Package: digiRootData
