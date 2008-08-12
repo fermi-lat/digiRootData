@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 12 10:40:19 PDT 2008
+digiRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+provide ALL option for DigiObjectManager::Delete
+    *
+------------------------------------------------------------
 User: heather  Tue Aug 12 10:40:16 PDT 2008
 digiRootData/cmt
 
