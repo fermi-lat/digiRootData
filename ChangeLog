@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 18 19:20:45 PDT 2008
+digiRootData/digiRootData
+
+Modified Files:
+	LinkDef.h LpaHandler.h 
+Log Message:
+adding LpaGammaFilterV3 for FSW B1-1-2
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 18 19:20:45 PDT 2008
 digiRootData/cmt
 
 Modified Files:
