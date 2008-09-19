@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v11r12, operation: mov
+Package: digiRootData
+User: glastrm  Thu Sep 18 19:30:11 2008
+Files:
+  digiRootData/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Thu Sep 18 19:30:05 PDT 2008
 digiRootData
 
