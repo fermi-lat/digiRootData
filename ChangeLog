@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: ecephas  Mon Oct 27 09:36:23 PDT 2008
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	digiRootDataLib.py 
+Log Message:
+Added the following library calls:
+
+     env.Tool('facilitiesLib')
+     env.Tool('addLibrary', library = env['ldfLibs'])
+     env.Tool('lsfDataLib')
+     env.Tool('addLibrary', library = env['obfLibs'])
+     env.Tool('addLibrary', library = env['rootLibs'])
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Oct 27 09:35:16 PDT 2008
 GlastRelease-scons/digiRootData
 
