@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: ecephas  Mon Oct 27 09:35:16 PDT 2008
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+Added 'digiRootData/LinkDef.h' to the list of headers in the libEnv.Rootcint function call.  Corrected the name of the test source file from DigiClasses.cxx to testDigiClasses.cxx.
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Sep 29 14:56:33 PDT 2008
 GlastRelease-scons/digiRootData
 
