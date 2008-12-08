@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:27 PST 2008
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for digiRootData v11r12 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: ecephas  Mon Oct 27 09:36:23 PDT 2008
 GlastRelease-scons/digiRootData
 
