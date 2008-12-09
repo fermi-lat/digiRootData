@@ -2,6 +2,16 @@
 TAG
 Tag name: digiRootData-11-12-00, operation: mov
 Package: digiRootData
+User: glast  Mon Dec  8 16:19:05 2008
+Files:
+  digiRootData/digiRootDataLib.py  1.2
+  digiRootData/digiRootDataLib.py  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: digiRootData-11-12-00, operation: mov
+Package: digiRootData
 User: glast  Mon Dec  8 14:41:29 2008
 Files:
   digiRootData/SConscript  1.5
