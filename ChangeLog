@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+TAG
+Tag name: digiRootData-11-12-00, operation: mov
+Package: digiRootData
+User: glastrm  Thu Jan 22 16:31:28 2009
+Files:
+  digiRootData/SConscript  1.6
+  digiRootData/SConscript  1.6
+  digiRootData/SConscript  1.6
+  digiRootData/digiRootDataLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Thu Jan 22 16:06:56 PST 2009
 GlastRelease-scons/digiRootData
 
