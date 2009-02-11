@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: GlastRelease-15-49-00, operation: mov
+Package: digiRootData
+User: glastrm  Wed Feb 11 12:07:16 2009
+Files:
+  digiRootData/SConscript  1.7
+
+    *
+------------------------------------------------------------
 User: ecephas  Wed Feb 11 10:32:01 PST 2009
 GlastRelease-scons/digiRootData
 
