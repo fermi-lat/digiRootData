@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: ecephas  Wed Feb 11 10:32:01 PST 2009
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+
+For the registerObjects method, I changed the testApps parameter from testApps = [test_digiRootData, ReadFilterStats], to "testApps = [test_digiRootData]."
+
+ReadFilterStats is an application, so I added the following paramer to the registerObjects method, "binaries = [ReadFilterStats]."
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-12-00, operation: mov
 Package: digiRootData
