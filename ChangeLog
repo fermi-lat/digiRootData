@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  7 14:39:31 PDT 2009
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+Convert to use registerTargets
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-13-00, operation: add
 Package: digiRootData
