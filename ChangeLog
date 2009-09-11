@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 10 19:55:38 PDT 2009
+digiRootData/digiRootData
+
+Modified Files:
+	Configuration.h FilterStatus.h Gem.h MetaEvent.h 
+Log Message:
+fix up warnings
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 10 19:55:38 PDT 2009
 digiRootData/cmt
 
 Modified Files:
