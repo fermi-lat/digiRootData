@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Sep 10 19:55:39 PDT 2009
+digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx 
+Log Message:
+fix up warnings
+    *
+------------------------------------------------------------
+User: heather  Thu Sep 10 19:55:39 PDT 2009
 digiRootData/src
 
 Modified Files:
