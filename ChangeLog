@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon May 17 12:17:09 PDT 2010
+digiRootData/src
+
+Modified Files:
+	TkrDigi.cxx 
+Log Message:
+Fix memory leak found on linux with the DigiObjectManager system
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-14-00, operation: add
 Package: digiRootData
