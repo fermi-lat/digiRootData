@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:44:20 PDT 2010
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-14-01, operation: add
 Package: digiRootData
