@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  6 12:04:37 PDT 2010
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+add new keyword args to Rootcint call
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-14-02, operation: add
 Package: digiRootData
