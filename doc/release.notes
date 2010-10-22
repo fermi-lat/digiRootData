@@ -3,6 +3,9 @@ Package digiRootData
 Coordinator:H.Kelly
 
 EOH
+
+v11r13p1gr01 22-Oct-2010 HMK GlastReleasev15r47p12 branch, adding update from
+     HEAD in TkrDigi.cxx to address mem leak on linux
 v11r13    11-Mar-2009 HMK Add TemBug check in EventSummary
 v11r12    18-Sep-2008 HMK Add GammaFilterV3 for FSW B1-1-2
 v11r11    12-Aug-2008 HMK Provide char option parameter to DigiObjectManager's
