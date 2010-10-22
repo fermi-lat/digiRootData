@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Oct 21 22:10:23 PDT 2010
+digiRootData/doc
+
+Modified Files:
+      Tag: GlastReleasev15r47p12
+	release.notes 
+Log Message:
+try adding mem leak fix from head into GlastReleasev15r47p12 branch
+    *
+------------------------------------------------------------
+User: heather  Thu Oct 21 22:10:23 PDT 2010
 digiRootData/cmt
 
 Modified Files:
