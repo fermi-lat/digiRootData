@@ -91,6 +91,10 @@ void* TkrDigi::operator new(size_t size)
 
     // Since we recycle, make sure these member functions are cleared
     temp->m_hitCol.clear();
+    //Note that to make sure memory is deallocated on linux we need
+    // to use this trick of swapping vectors
+    std::vector<UInt_t> swapVec;
+    temp->m_hitCol.swap(swapVec);
 
     return temp;
 }
