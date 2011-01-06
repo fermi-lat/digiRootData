@@ -2,14 +2,17 @@
 # $Header$
 # Authors: H. Kelly <heather@slac.stanford.edu>, David Chamont <chamont@poly.in2p3.fr>
 # Version: digiRootData-11-14-01
+
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
+locInc = listFiles(['digiRootData/*'], recursive=True)
 
 libEnv.Tool('digiRootDataLib', depsOnly = 1)
-digiRootDataRootcint = libEnv.Rootcint('digiRootData/digiRootData_rootcint',['digiRootData/AcdDigi.h',
+digiRootDataRootcint = libEnv.Rootcint('digiRootData/digiRootData_rootcint',
+                                       ['digiRootData/AcdDigi.h',
                                         'digiRootData/CalDiagnosticData.h',
                                         'digiRootData/CalDigi.h',
                                         'digiRootData/CalXtalReadout.h',
@@ -34,7 +37,10 @@ digiRootDataRootcint = libEnv.Rootcint('digiRootData/digiRootData_rootcint',['di
                                         'digiRootData/FilterStatus.h',
                                         'digiRootData/ObfFilterStatus.h',
                                         'digiRootData/AdfDigi.h',
-                                        'digiRootData/EventSummaryData.h', 'digiRootData/LinkDef.h'], includes = [''])
+                                        'digiRootData/EventSummaryData.h', 
+                                        'digiRootData/LinkDef.h'], 
+                                       localIncludes=locInc,
+                                       includes = [''])
 
 libEnv['rootcint_node'] = digiRootDataRootcint
                                        
@@ -45,6 +51,7 @@ test_digiRootData = progEnv.Program('test_digiRootData',
                                     ['src/test/testDigiClasses.cxx'])
 progEnv.Tool('addLibrary', library = baseEnv['ldfLibs'])
 progEnv.Tool('lsfDataLib')
+progEnv.Tool('facilitiesLib')
 ReadFilterStats = progEnv.Program('ReadFilterStats',
                                   ['apps/ReadFilterStats.cxx'])
 
