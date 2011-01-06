@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jan  6 14:45:52 PST 2011
+GlastRelease-scons/digiRootData
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	SConscript digiRootDataLib.py 
+Log Message:
+windows only: add localIncludes arg. to Rootcint
+    *
+------------------------------------------------------------
 TAG
 Tag name: digiRootData-11-13-01-gr01, operation: add
 Package: digiRootData
