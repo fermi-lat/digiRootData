@@ -53,7 +53,8 @@ progEnv.Tool('addLibrary', library = baseEnv['ldfLibs'])
 progEnv.Tool('lsfDataLib')
 progEnv.Tool('facilitiesLib')
 ReadFilterStats = progEnv.Program('ReadFilterStats',
-                                  ['apps/ReadFilterStats.cxx'])
+                                  ['apps/ReadFilterStats.cxx',
+                                   'apps/XGetopt.cxx'])
 
 progEnv.Tool('registerTargets', package = 'digiRootData',
              rootcintSharedCxts = [[digiRootData, libEnv]], 
