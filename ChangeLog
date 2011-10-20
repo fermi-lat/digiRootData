@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Wed Oct 19 18:11:27 PDT 2011
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript digiRootDataLib.py 
+Log Message:
+Avoid dragging in libraries unnecessarily
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr09, operation: add
 Package: digiRootData
