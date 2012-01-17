@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: cohen  Tue Jan 17 08:52:03 PST 2012
+GlastRelease-scons/digiRootData/src/test
+
+Modified Files:
+	testDigiClasses.cxx 
+Log Message:
+fix C library includes for gcc4.4 compilation
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr17, operation: add
 Package: digiRootData
