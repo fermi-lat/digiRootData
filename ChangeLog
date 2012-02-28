@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Feb 28 15:49:37 PST 2012
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+use installed XGetopt.obj on Windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr24, operation: add
 Package: digiRootData
