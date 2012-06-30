@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Jun 29 21:47:18 PDT 2012
+digiRootData/src
+
+Modified Files:
+	TkrDigi.cxx 
+Log Message:
+Fixed bug in TkrDigi::getToTForStrip()... but I don't think it's ever called
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp29, operation: add
 Package: digiRootData
