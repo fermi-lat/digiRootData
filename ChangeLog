@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug 17 12:45:25 PDT 2012
+GlastRelease-scons/digiRootData
+
+Modified Files:
+	digiRootDataLib.py 
+Log Message:
+patches for Windows no-install-headers
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-02, operation: add
 Package: digiRootData
