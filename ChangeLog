@@ -1,5 +1,91 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-06-04, operation: add
+Package: digiRootData
+User: heather  Sun Oct 21 05:14:26 2012
+Files:
+  digiRootData/.cvsignore  1.2
+  digiRootData/digiRootDataLib.py  1.4
+  digiRootData/ChangeLog  1.1220
+  digiRootData/SConscript  1.23
+  digiRootData/apps/ReadFilterStats.cxx  1.2
+  digiRootData/cmt/.cvsignore  1.2
+  digiRootData/cmt/requirements  1.187
+  digiRootData/cmt/Makefile  1.1.1.1
+  digiRootData/digiRootData/Tem.h  1.2
+  digiRootData/digiRootData/TkrDigi.h  1.14
+  digiRootData/digiRootData/MetaEvent.h  1.15
+  digiRootData/digiRootData/AdfDigi.h  1.6
+  digiRootData/digiRootData/Gem.h  1.12
+  digiRootData/digiRootData/FilterStatus.h  1.11
+  digiRootData/digiRootData/CalDigi.h  1.20
+  digiRootData/digiRootData/LsfKeys.h  1.5
+  digiRootData/digiRootData/EventSummaryData.h  1.24
+  digiRootData/digiRootData/LsfTime.h  1.7
+  digiRootData/digiRootData/TkrDiagnosticData.h  1.4
+  digiRootData/digiRootData/TimeTone.h  1.6
+  digiRootData/digiRootData/RunInfo.h  1.4
+  digiRootData/digiRootData/ErrorData.h  1.3
+  digiRootData/digiRootData/AcdDigi.h  1.19
+  digiRootData/digiRootData/DatagramInfo.h  1.3
+  digiRootData/digiRootData/CalXtalReadout.h  1.9
+  digiRootData/digiRootData/Configuration.h  1.6
+  digiRootData/digiRootData/GemTime.h  1.3
+  digiRootData/digiRootData/LinkDef.h  1.28
+  digiRootData/digiRootData/Ccsds.h  1.1
+  digiRootData/digiRootData/.cvsignore  1.3
+  digiRootData/digiRootData/GlastAxis.h  1.1
+  digiRootData/digiRootData/CalDiagnosticData.h  1.5
+  digiRootData/digiRootData/ObfFilterStatus.h  1.18
+  digiRootData/digiRootData/LpaHandler.h  1.6
+  digiRootData/digiRootData/ObfFilterTrack.h  1.3
+  digiRootData/digiRootData/DigiEvent.h  1.42
+  digiRootData/digiRootData/GemScalers.h  1.3
+  digiRootData/digiRootData/L1T.h  1.18
+  digiRootData/doc/digiRootData.htm  1.8
+  digiRootData/doc/release.notes  1.154
+  digiRootData/doc/Doxyfile  1.5
+  digiRootData/doc/images/digiTree.gif  1.2
+  digiRootData/doc/styles/site.css  1.1
+  digiRootData/src/FilterStatus.cxx  1.9
+  digiRootData/src/CalXtalReadout.cxx  1.9
+  digiRootData/src/TimeTone.cxx  1.3
+  digiRootData/src/GemScalers.cxx  1.3
+  digiRootData/src/AdfDigi.cxx  1.8
+  digiRootData/src/TkrDigi.cxx  1.15
+  digiRootData/src/Gem.cxx  1.4
+  digiRootData/src/mainpage.h  1.7
+  digiRootData/src/TkrDiagnosticData.cxx  1.5
+  digiRootData/src/DigiObjectManager.h  1.2
+  digiRootData/src/DatagramInfo.cxx  1.3
+  digiRootData/src/LsfKeys.cxx  1.6
+  digiRootData/src/Tem.cxx  1.2
+  digiRootData/src/LpaHandler.cxx  1.7
+  digiRootData/src/MetaEvent.cxx  1.5
+  digiRootData/src/Ccsds.cxx  1.1
+  digiRootData/src/LsfTime.cxx  1.4
+  digiRootData/src/L1T.cxx  1.14
+  digiRootData/src/CalDigi.cxx  1.21
+  digiRootData/src/DigiEvent.cxx  1.47
+  digiRootData/src/EventSummaryData.cxx  1.11
+  digiRootData/src/ObfFilterStatus.cxx  1.11
+  digiRootData/src/Configuration.cxx  1.5
+  digiRootData/src/RunInfo.cxx  1.4
+  digiRootData/src/CalDiagnosticData.cxx  1.5
+  digiRootData/src/DigiObjectManager.cxx  1.2
+  digiRootData/src/ObfFilterTrack.cxx  1.3
+  digiRootData/src/.cvsignore  1.1.1.1
+  digiRootData/src/ErrorData.cxx  1.4
+  digiRootData/src/GemTime.cxx  1.3
+  digiRootData/src/AcdDigi.cxx  1.13
+  digiRootData/src/test/.cvsignore  1.1
+  digiRootData/src/test/testDigiClasses.cxx  1.38
+  digiRootData/src/test/leaktest.cxx  1.14
+  digiRootData/src/test/.rootrc  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-20-06-03, operation: add
 Package: digiRootData
 User: heather  Wed Oct 17 20:39:30 2012
