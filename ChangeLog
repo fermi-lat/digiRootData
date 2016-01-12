@@ -2,6 +2,18 @@
 TAG
 Tag name: GlastRelease-20-10-04, operation: add
 Package: digiRootData
+User: heather  Tue Jan 12 09:16:40 2016
+Files:
+  digiRootData/src/test/.cvsignore  1.1
+  digiRootData/src/test/testDigiClasses.cxx  1.38
+  digiRootData/src/test/leaktest.cxx  1.14
+  digiRootData/src/test/.rootrc  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-10-04, operation: add
+Package: digiRootData
 User: heather  Tue Jan 12 09:16:35 2016
 Files:
   digiRootData/.cvsignore  1.2
