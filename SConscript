@@ -38,7 +38,7 @@ digiRootDataRootcint = libEnv.Rootcint('digiRootData/digiRootData_rootcint',
                                         'digiRootData/AdfDigi.h',
                                         'digiRootData/EventSummaryData.h',
                                         'digiRootData/LinkDef.h'],
-                                       includes = [''], localIncludes=locIncs,
+                                       includes = ['', '../include'], localIncludes=locIncs,
                                        packageName='digiRootData')
 
 libEnv['rootcint_node'] = digiRootDataRootcint
